@@ -1,0 +1,24 @@
+.graphic_service{
+    width: 18%;
+    min-height: 100px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ff0000;
+    border-radius: 10px;
+    margin:20px 10px;
+}
+
+.graphic_service>img{
+    height: auto;
+    width: 100%;
+}
+.graphic_service>h3{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.serviceList{
+    padding: 50px;
+    display: flex;
+    justify-content: flex-start;
+}
