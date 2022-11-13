@@ -11,40 +11,39 @@
 } */
 
 
-.serviceList{
+/* .serviceList{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-
-}
+} */
 /* .work_segment>h1{
     display: block;
     text-align: center;
     margin-top: 20px;
 } */
-.service>div>p{
+/* .service>div>p{
     font-size: 30px;
     padding-top: 20px;
     word-spacing: 2px;
     line-height: 1.2;
     color: black;
-}
-.gallery{
+} */
+/* .gallery{
  display: flex;
  flex-direction: column;
  flex-wrap: wrap;
  height: 2600px;
  padding:0 20px;
-}
+} */
 
-.gallery_image{
+/* .gallery_image{
     padding:.75%;
     width: 25%;
     height: auto;
     overflow: hidden;
     box-shadow: 5px 5px 5px 5px solid black;
     cursor: pointer;
-}
+} */
 
