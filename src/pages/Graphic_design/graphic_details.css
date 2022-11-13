@@ -1,14 +1,14 @@
-.service{
+/* .service{
    
     background-color: #f0f2f5;
     width: 100% !important;
-}
-.header{
+} */
+/* .header{
     display: flex;
     align-items: center;
     justify-content: center;
    
-}
+} */
 
 
 .serviceList{
@@ -19,11 +19,11 @@
     align-items: center;
 
 }
-.work_segment>h1{
+/* .work_segment>h1{
     display: block;
     text-align: center;
     margin-top: 20px;
-}
+} */
 .service>div>p{
     font-size: 30px;
     padding-top: 20px;
