@@ -8,8 +8,8 @@ import HeaderStyleFive from "./pages/HeaderStyleFive/HeaderStyleFive";
 import HeaderStyleFour from "./pages/HeaderStyleFour/HeaderStyleFour";
 import HeaderStyleSeven from "./pages/HeaderStyleSeven/HeaderStyleSeven";
 import HeaderStyleSix from "./pages/HeaderStyleSix/HeaderStyleSix";
+import SMM from "./pages//SocialMediaMarketing/SocialMediaManagement"
 import Home from './pages/Home/Home';
-// feerf
 import HomeThree from "./pages/HomeThree/HomeThree";
 import HomeTwo from "./pages/HomeTwo/HomeTwo";
 import Portfolio from "./pages/Portfolio/Portfolio";
@@ -18,9 +18,9 @@ import Services from "./pages/Services/Services";
 import ServicesDetails from "./pages/ServicesDetails/ServicesDetails";
 import Graphic_details from "./pages/Graphic_design/graphic_details";
 import WebDevelopment from "./pages/WebDevelopment/WebDevelopment";
+import Seo from "./pages/SEO/seo";
 import Team from "./pages/Team/Team";
 import TeamDetails from "./pages/TeamDetails/TeamDetails";
-
 
 function App() {
   return (
@@ -48,6 +48,8 @@ function App() {
             <Route path="/blogDetails" element={<BlogDetails/>} />*/}
             <Route path="/contact" element={<Contact/>} />
             <Route path="/graphic_details" element={<Graphic_details/>}/>
+            <Route path="/seo" element={<Seo/>}/>
+            <Route path="/social_media_management" element={<SMM/>}/>
         </Routes>
       </BrowserRouter>
     </>

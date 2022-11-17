@@ -3,7 +3,7 @@
 /*----------------------------------------*/
 
 .achievement{
-    &__area{}
+   
     &__content{
         & p{
             margin-bottom: 50px;
@@ -20,7 +20,7 @@
             margin-top: 50px;
         }
     }
-    &__wrapper{}
+   
     &__item{
         padding-right: 45px;
         @media #{$md}{
