@@ -5,7 +5,7 @@ import CommonPageHeader from "../../components/CommonPageHeader/CommonPageHeader
 import CommonCtaArea from "../../components/CommonCtaArea/CommonCtaArea";
 import "./webdevelopment.css";
 import Faq from "../HomeTwo/HomeTwoFaq/HomeTwoFaq";
-import { FaConnectdevelop } from "react-icons/fa";
+
 function webDevelopment(props) {
   const arrayFaq = [
     {
@@ -77,7 +77,7 @@ function webDevelopment(props) {
         <h1 className="text-[2rem] md:text-[4vw] font-bold text-center">
           Our Development Solution
         </h1>
-        <p className="my-[1rem] md:text-[1.5vw] md:leading-[1.75vw] md:px-[4vw]">
+        <p className="mt-[1rem] md:text-[1.5vw] md:leading-[1.75vw] md:px-[4vw]">
           Straightforward solutions to complex business challenges
           High-performing, intuitive and secure web solutions that support
           business processes and serve users globally. Your technology partner
@@ -103,7 +103,7 @@ function webDevelopment(props) {
           className="w-full h-auto"
         />
       </div>
-      <div className=" flex flex-col align-center px-[1rem] my-[2rem]">
+      <div className=" flex flex-col align-center px-[1rem] my-[2rem] md:my-[4vw]">
         <h1 className="text-[2rem] md:text-[4vw] font-bold text-center">
           Technologies we work with
         </h1>
@@ -120,21 +120,26 @@ function webDevelopment(props) {
           })}
         </div>
       </div>
-      <div className="flex flex-col align-center">
+      <div className="flex flex-col align-center my-[2rem] md:my-[4vw]">
         <h1 className="text-[2rem] md:text-[4vw] font-bold text-center">
           Development lifecycle
         </h1>
-        <div className="w-full min-h-[500px] bg-red-500">
+        <div className="w-full my-[2rem] md:px-[10vw] md:my-[6vw]">
           <img
-            src="/assets/img/xxxxx.jpg"
+            src="/assets/img/dev.png"
             alt="whyhireus"
-            className="w-full h-auto"
+            className="w-full h-auto hidden md:flex"
+          />
+          <img
+            src="/assets/img/devMobile.png"
+            alt="whyhireus"
+            className="w-[80vw] h-auto md:hidden mx-auto"
           />
         </div>
       </div>
 
-      <div className="my-[2rem] px-[1rem] flex flex-col flex-col-reverse md:flex-row">
-        <div className="w-full md:w-[50vw]">
+      <div className="my-[2rem] px-[1rem] flex flex-col-reverse md:flex-row md:my-[4vw]">
+        <div className="w-full md:w-[50vw] md:px-[5rem]">
           <img
             src="/assets/img/whyhireus.jpg"
             alt="whyhireus"
