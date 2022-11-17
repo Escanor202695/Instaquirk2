@@ -26,51 +26,43 @@ function webDevelopment(props) {
   ];
   const tech = [
     {
-      src: "https://magnetoitsolutions.com/wp-content/uploads/2022/03/MySQL.png",
+      src: "assets/tech/angular.png",
+      title: "Angular",
+    },
+    {
+      src: "assets/tech/laravel.png",
+      title: "Laravel",
+    },
+    {
+      src: "assets/tech/mongo.png",
       title: "mySQL",
     },
     {
-      src: "https://magnetoitsolutions.com/wp-content/uploads/2022/03/MySQL.png",
+      src: "assets/tech/mysql.png",
       title: "mySQL",
     },
     {
-      src: "https://magnetoitsolutions.com/wp-content/uploads/2022/03/MySQL.png",
+      src: "assets/tech/react.png",
       title: "mySQL",
     },
     {
-      src: "https://magnetoitsolutions.com/wp-content/uploads/2022/03/MySQL.png",
+      src: "assets/tech/node.png",
       title: "mySQL",
     },
     {
-      src: "https://magnetoitsolutions.com/wp-content/uploads/2022/03/MySQL.png",
+      src: "assets/tech/next.png",
       title: "mySQL",
     },
     {
-      src: "https://magnetoitsolutions.com/wp-content/uploads/2022/03/MySQL.png",
+      src: "assets/tech/vue.png",
       title: "mySQL",
     },
     {
-      src: "https://magnetoitsolutions.com/wp-content/uploads/2022/03/MySQL.png",
+      src: "assets/tech/word.png",
       title: "mySQL",
     },
     {
-      src: "https://magnetoitsolutions.com/wp-content/uploads/2022/03/MySQL.png",
-      title: "mySQL",
-    },
-    {
-      src: "https://magnetoitsolutions.com/wp-content/uploads/2022/03/MySQL.png",
-      title: "mySQL",
-    },
-    {
-      src: "https://magnetoitsolutions.com/wp-content/uploads/2022/03/MySQL.png",
-      title: "mySQL",
-    },
-    {
-      src: "https://magnetoitsolutions.com/wp-content/uploads/2022/03/MySQL.png",
-      title: "mySQL",
-    },
-    {
-      src: "https://magnetoitsolutions.com/wp-content/uploads/2022/03/MySQL.png",
+      src: "assets/tech/shopify.png",
       title: "mySQL",
     },
   ];

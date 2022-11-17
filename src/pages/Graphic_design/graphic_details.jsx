@@ -87,7 +87,7 @@ function graphic_details() {
       />
       <div className="bg-[#f0f2f5] w-[100%] m-b-[5px]">
         <div className="container">
-          <p className="text-[20px] p-t-[20px] ">
+          <p className="text-[20px] p-t-[20px] linear-[1.2] text-color bg-red-200">
             Need to make a lasting impression? The right combination of colors,
             shapes and words will define your brand. Get the perfect logo and
             ensure your branding hits the spot with these services.
@@ -114,7 +114,7 @@ function graphic_details() {
 
         <div className="work_segment">
           <h1 className="block text-center m-t-[20px] ">Sample Works</h1>
-          <div className="gallery">
+          <div className="flex flex-col flex-wrap h-[2600px] py-0 px-[20px]">
             {images.map((image, key) => {
               return <GalleryImage index={key} images={images} image={image} />;
             })}
