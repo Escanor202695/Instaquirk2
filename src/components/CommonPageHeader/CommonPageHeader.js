@@ -11,11 +11,11 @@ const CommonPageHeader = ({ title, subtitle}) => {
                <img className="shape solid-square" src="assets/img/icon/slider/solid-square.png" alt="solid-square" />
                <img className="shape circle-2" src="assets/img/icon/slider/circle.png" alt="circle" />
             </div>
-            <div className="container p-relative">
+            <div className="p-relative px-[1rem] md:px-[4vw]">
                <div className="row">
                   <div className="col-xl-12">
                      <div className="page__title-content mt-100">
-                        <h2>{title}</h2>
+                        <h2 className='font-bold'>{title}</h2>
                       
                               {/* <li className="breadcrumb-item"><Link to="/">Home</Link></li> */}
                               <p style={{color:"white",fontSize:"20px"}}><big></big>{subtitle}</p>

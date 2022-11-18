@@ -7,7 +7,7 @@ function GalleryImage({index,images,image}) {
 
   console.log(image);
   return (
-    <div className="gallery_image">
+    <div className="gallery_image p-[.75%] w-[25%] overflow-hidden shadow-md cursor-pointer ">
       {open && (
         <Lightbox
           mainSrc={images[photoIndex]}

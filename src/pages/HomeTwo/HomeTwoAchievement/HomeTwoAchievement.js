@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 const HomeTwoAchievement = () => {
    return (
       <>
-         <section className="achievement__area pt-135 pb-40">
-            <div className="container">
+         <section className="achievement__area pt-135 pb-40 ">
+            <div className="container ">
                <div className="row">
                   <div className="col-xl-5 col-lg-6 col-md-6">
                      <div className="achievement__content">
@@ -30,13 +30,13 @@ const HomeTwoAchievement = () => {
                   <div className="col-xl-7 col-lg-6 col-md-6">
                      <div className="row">
                         <div className="col-xl-7 col-sm-6">
-                           <div className="achievement__thumb m-img pl-30 text-right">
-                              <img src="assets/img/achievement/achievement-1.jpg" alt="achievement-1"/>
+                           <div className="achievement__thumb m-img pl-30 text-right ">
+                              <img src="assets/instaquirkbg/24.jpg"  alt="achievement-1"/>
                            </div>
                         </div>
                         <div className="col-xl-5 col-sm-6 d-md-none d-lg-none d-xl-block">
-                           <div className="achievement__thumb w-img">
-                              <img src="assets/img/achievement/achievement-2.jpg" alt=""/>
+                           <div className="achievement__thumb w-img h-[20px] border-red-700" >
+                              <img src="assets/instaquirkbg/26.jpg" alt=""/>
                            </div>
                         </div>
                      </div>
