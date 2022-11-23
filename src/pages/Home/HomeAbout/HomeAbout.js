@@ -10,9 +10,9 @@ const HomeAbout = () => {
                <div className="row">
                   <div className="col-xl-6 pr-0 col-lg-6">
                      <div className="about__thumb m-img">
-                        <img src="assets/img/about/about-1.jpg" alt=""/>
+                        <img src="assets/instaquirkbg/31.jpg" alt=""/>
                            <div className="about__shape">
-                              <img src="assets/img/about/red-shape.png" alt=""/>
+                              <img src="assets/instaquirkbg/2.jpg" alt=""/>
                            </div>
                      </div>
                   </div>

@@ -88,7 +88,7 @@
                     & i{
                         position: absolute;
                         top: 50%;
-                        left: 0;
+                        left: 50%;
                         @include transform(translateY(-50%));
                         display: inline-block;
                         width: 20px;
