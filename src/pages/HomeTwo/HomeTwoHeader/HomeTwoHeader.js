@@ -45,7 +45,7 @@ const HomeTwoHeader = () => {
                   <div className="header__bottom-right d-flex justify-content-end align-items-center">
                     <div className="main-menu menu_wrapper_one">
                       <nav id="mobile-menu">
-                        <ul>
+                        <ul className="drop-down-menu">
                           <li>
                             <NavLink to="/">Home</NavLink>
                           </li>
@@ -54,6 +54,24 @@ const HomeTwoHeader = () => {
                           </li>
                           <li>
                             <NavLink to="/services">Services</NavLink>
+                            <ul>
+                              <li>
+                                <NavLink to="/" className="dropdown-item">
+                                  Service one
+                                </NavLink>
+                              </li>
+                              <li>
+                                <NavLink to="/" className="dropdown-item">
+                                  Service two
+                                </NavLink>
+                              </li>{" "}
+                              <br />
+                              <li>
+                                <NavLink to="/" className="dropdown-item">
+                                  Service three
+                                </NavLink>
+                              </li>
+                            </ul>
                           </li>
                           {/*<li>
                             <NavLink to="/portfolio">Insights</NavLink>
