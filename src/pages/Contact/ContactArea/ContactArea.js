@@ -1,6 +1,17 @@
 import React from 'react';
-
+import emailjs from '@emailjs/browser';
 const ContactArea = () => {
+
+      const sendEmail = (e) => {
+         e.preventDefault();
+      
+         emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'JDOpPEKcqNDhzIhJ')
+         .then((result) => {
+               console.log(result.text);
+         }, (error) => {
+               console.log(error.text);
+         });
+      };   
    return (
       <>
          <section className="contact__area">
@@ -29,7 +40,7 @@ const ContactArea = () => {
                               </ul>
                            </div>
                            <div className="contact__form">
-                              <form >
+                              <form onSubmit={sendEmail} ref={form}>
                                  <input type="text" required placeholder="Your Name" />
                                  <input type="email" required placeholder="Your Email" />
                                  <textarea required placeholder="Your Message"></textarea>
