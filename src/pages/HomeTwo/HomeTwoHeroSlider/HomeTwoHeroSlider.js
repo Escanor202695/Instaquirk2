@@ -6,7 +6,7 @@ const HomeTwoHeroSlider = () => {
   // slider setting
   const settings = {
     autoplay: true,
-    autoplaySpeed:2000,
+    autoplaySpeed: 2000,
     speed: 2000,
     infinite: true,
     dots: false,
@@ -23,22 +23,29 @@ const HomeTwoHeroSlider = () => {
           <HomeTwoSingleSlide
             slider_class="col-xl-7 offset-xl-6 col-lg-8 offset-lg-4 col-md-9 offset-md-3 col-sm-10 offset-sm-2"
             content_class=""
-            attr_1={<span>Welcome To Instaquirk.</span>}
+            attr_1={<span className="Instaquirk">Welcome To Instaquirk.</span>}
             attr_2={
               <h1>
-                We will help<br/> your business grow <br/> faster
+                Start your dream today.
+                <br /> Conquer the world.
               </h1>
             }
-            btn_text="Let Us Hear Your Vision"
+            btn_text="Enroll Now"
           />
 
           <HomeTwoSingleSlide
             slider_class="col-xl-6"
             content_class="slider__content-4"
-            attr_1={<span>Welcome To Instaquirk</span>}
-            attr_2={<h1>Get more Impact Fasted</h1>}
-            attr_3="Tinkety tonk old fruit baking cakes cobblers happy days argy-bargy up the duff excuse my french fanny around."
-            btn_text="Get an Estimated Quote"
+            attr_1={<span className="Instaquirk">Welcome To Instaquirk</span>}
+            attr_2={
+              <h1>
+                Learn Effectively
+                <br />
+                that will take you towards your goal
+              </h1>
+            }
+            attr_3="Our course will cover everything you need to become a professional web developer or UI/UX designer and Full Stack Digital Marketing from scratch, without any prior experience."
+            btn_text="Enroll Now"
           />
         </Slider>
       </section>

@@ -1,0 +1,147 @@
+
+/* /first section css/ */
+.Instaquirk {
+    display: inline-block;
+    color: #ffff!important;
+    font-weight: 800;
+    font-size: 20px !important;
+    margin-bottom: 20px !important;
+    background: none !important;
+}
+.about-ours p {
+    color: #FFF!important;
+    font-size: 19px;
+    line-height: 32px;
+}
+a.z-btn.z-btn-transparent {
+    border: 2px solid white;
+    color: #FFF;
+}
+
+a.z-btn.z-btn-transparent:hover{
+    color: #001ec8 !important;
+}
+
+/* //responsive mobile logo showing/ */
+.customize-logo img {
+    width: 146px !important;
+    object-fit: cover;
+}
+/* second section css */
+.section__title h2 {
+    font-size: 50px !important;
+    font-weight: 900 !important;
+    line-height: 1.3 !important;
+    text-transform: capitalize !important;
+}
+.features__content-left p {
+    margin-bottom: 65px !important;
+    line-height: 30px !important;
+    font-size: 14px !important;
+}
+
+.features__content-2 h3 {
+    font-size: 21px !important;
+    font-weight: 900;
+}
+
+
+.section__title-3 h2 {
+    font-size: 45px !important;
+}
+/* achievement  css*/
+.achievement__thumb.m-img.pl-30.text-right img {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.achievement__thumb.w-img img {
+    height: 72vh;
+    width: 100%;
+    object-fit: cover !important;
+    border-radius: 10px;
+    margin-top: 80px;
+}
+
+.achievement__item h3 {
+    font-size: 17px;
+    line-height: 22px;
+}
+
+.achievement__item h3 {
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 500;
+}
+
+.achievement__item.mb-30 img {
+    height: 100px;
+}
+/* expert section css */
+.expart__tab-content h3 {
+    font-size: 38px !important;
+    margin-bottom: 25px !important;
+    line-height: 55px !important;
+}
+
+.expart__tab-content p {
+    margin-bottom: 36px;
+    font-size: 15px;
+    line-height: 31px;
+}
+
+.expart__tab {
+    box-shadow: 0px 30px 40px 0px rgba(2, 0, 40, 0.1);
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 200px !important;
+}
+
+/* //drop down menu work/ */
+/*  DropDown Menu CSS  */
+ul.drop-down-menu li{
+    position: relative;
+}
+ul.drop-down-menu li ul {
+    position: absolute;
+    width: 138px;
+    left: 0;
+    top: 160%;
+    background: white;
+    list-style: none;
+    padding: 22px 23px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    visibility: hidden;
+    transition: all .4s ease-in-out;
+    border-radius: 5px;
+}
+ul.drop-down-menu li ul li{
+    flex-direction: column;
+}
+ul.drop-down-menu li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    top: 102%;
+}
+
+.dropdown-item {
+    padding: 4px 0 !important;
+    padding-bottom: 0px !important;
+    color: black !important;
+    transition: .3s ease-in-out;
+}
+.dropdown-item:hover{
+    color: #001ec8 !important;
+}
+.main-menu ul li a {
+    background: none !important;
+}
+
+.main-menu ul li a {
+    background: none !important;
+    margin-bottom: 6px;
+}
+
