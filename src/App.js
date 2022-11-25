@@ -9,15 +9,10 @@ import HeaderStyleFive from "./pages/HeaderStyleFive/HeaderStyleFive";
 import HeaderStyleFour from "./pages/HeaderStyleFour/HeaderStyleFour";
 import HeaderStyleSeven from "./pages/HeaderStyleSeven/HeaderStyleSeven";
 import HeaderStyleSix from "./pages/HeaderStyleSix/HeaderStyleSix";
-<<<<<<< HEAD
+
 import SMM from "./pages//SocialMediaMarketing/SocialMediaManagement";
 import Home from "./pages/Home/Home";
-=======
-
-import SMM from "./pages//SocialMediaMarketing/SocialMediaManagement"
-import Home from './pages/Home/Home';
-import  "./App.css"
->>>>>>> fc99e9f4b5190b67b526ea4ab6c5731ffe6c5829
+import "./App.css";
 import HomeThree from "./pages/HomeThree/HomeThree";
 import HomeTwo from "./pages/HomeTwo/HomeTwo";
 import Portfolio from "./pages/Portfolio/Portfolio";
@@ -29,11 +24,6 @@ import WebDevelopment from "./pages/WebDevelopment/WebDevelopment";
 import Seo from "./pages/SEO/seo";
 import Team from "./pages/Team/Team";
 import TeamDetails from "./pages/TeamDetails/TeamDetails";
-<<<<<<< HEAD
-=======
-
-
->>>>>>> fc99e9f4b5190b67b526ea4ab6c5731ffe6c5829
 
 function App() {
   return (
@@ -60,19 +50,11 @@ function App() {
             <Route path="/teamDetails" element={<TeamDetails/>} />
             <Route path="/blogs" element={<Blogs/>} />
             <Route path="/blogDetails" element={<BlogDetails/>} />*/}
-<<<<<<< HEAD
+
           <Route path="/contact" element={<Contact />} />
           <Route path="/graphic_details" element={<Graphic_details />} />
           <Route path="/seo" element={<Seo />} />
           <Route path="/social_media_management" element={<SMM />} />
-=======
-
-            <Route path="/contact" element={<Contact/>} />
-            <Route path="/graphic_details" element={<Graphic_details/>}/>
-            <Route path="/seo" element={<Seo/>}/>
-            <Route path="/social_media_management" element={<SMM/>}/>
-
->>>>>>> fc99e9f4b5190b67b526ea4ab6c5731ffe6c5829
         </Routes>
       </BrowserRouter>
     </>

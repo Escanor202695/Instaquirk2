@@ -176,9 +176,10 @@ button.btn.btn-link.collapsed {
 }
 /* expert section css */
 .expart__tab-content h3 {
-    font-size: 38px !important;
-    margin-bottom: 25px !important;
+    font-size: 32px !important;
+    margin-bottom: 26px !important;
     line-height: 55px !important;
+    font-family: 'Montserrat';
 }
 
 .expart__tab-content p {
@@ -192,6 +193,17 @@ button.btn.btn-link.collapsed {
     border-radius: 20px;
     overflow: hidden;
     margin-bottom: 200px !important;
+}
+
+.expart__tab-content p {
+    margin-bottom: 40px;
+    font-family: "Montserrat";
+}
+.customize-logo img {
+    width: 150px !important;
+}
+.logo.mb-40 img {
+    width: 150px !important;
 }
 
 /* //drop down menu work/ */
@@ -240,3 +252,9 @@ ul.drop-down-menu li:hover ul{
     margin-bottom: 6px;
 }
 
+.footer__widget-title h4 {
+    font-size: 24px;
+    font-weight: 700 !important;
+    margin-bottom: 25px;
+    font-family: 'Montserrat' !important;
+}
