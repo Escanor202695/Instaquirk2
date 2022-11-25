@@ -36,7 +36,11 @@ const HomeTwoAchievement = () => {
                       src="assets/img/icon/achievement/achievement-2.png"
                       alt="achievement"
                     />
+<<<<<<< HEAD
                     <h3>The acquisition of a solution</h3>
+=======
+                    <h3>Consultancy for private placements</h3>
+>>>>>>> fc99e9f4b5190b67b526ea4ab6c5731ffe6c5829
                   </div>
                 </div>
                 <Link to="/about" className="z-btn">

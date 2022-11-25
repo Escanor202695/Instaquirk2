@@ -1,6 +1,20 @@
 import React from 'react';
-
+import emailjs from '@emailjs/browser';
+import { useRef } from 'react';
 const ContactArea = () => {
+   const form = useRef();
+
+      const sendEmail = (e) => {
+         e.preventDefault();
+         console.log("hello")
+         emailjs.sendForm('service_c12ofag', 'template_j6bk8m8', form.current, '-JDOpPEKcqNDhzIhJ')
+         .then((result) => {
+               console.log(result.text);
+               alert("Successful")
+         }, (error) => {
+               console.log(error.text);
+         });
+      };   
    return (
       <>
          <section className="contact__area">
@@ -29,10 +43,10 @@ const ContactArea = () => {
                               </ul>
                            </div>
                            <div className="contact__form">
-                              <form >
-                                 <input type="text" required placeholder="Your Name" />
-                                 <input type="email" required placeholder="Your Email" />
-                                 <textarea required placeholder="Your Message"></textarea>
+                              <form onSubmit={sendEmail} ref={form}>
+                                 <input type="text" name="name" required placeholder="Your Name" />
+                                 <input type="email" name="email" required placeholder="Your Email" />
+                                 <textarea required placeholder="Your Message" name="message" ></textarea>
                                  <button type="submit" className="z-btn">Send Message</button>
                               </form>
                            </div>
