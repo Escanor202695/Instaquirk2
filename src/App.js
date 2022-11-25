@@ -11,7 +11,7 @@ import HeaderStyleSix from "./pages/HeaderStyleSix/HeaderStyleSix";
 
 import SMM from "./pages//SocialMediaMarketing/SocialMediaManagement"
 import Home from './pages/Home/Home';
-
+import  "./App.css"
 import HomeThree from "./pages/HomeThree/HomeThree";
 import HomeTwo from "./pages/HomeTwo/HomeTwo";
 import Portfolio from "./pages/Portfolio/Portfolio";

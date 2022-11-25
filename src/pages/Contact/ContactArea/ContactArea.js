@@ -6,10 +6,11 @@ const ContactArea = () => {
 
       const sendEmail = (e) => {
          e.preventDefault();
-      
-         emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'JDOpPEKcqNDhzIhJ')
+         console.log("hello")
+         emailjs.sendForm('service_c12ofag', 'template_j6bk8m8', form.current, '-JDOpPEKcqNDhzIhJ')
          .then((result) => {
                console.log(result.text);
+               alert("Successful")
          }, (error) => {
                console.log(error.text);
          });
@@ -43,9 +44,9 @@ const ContactArea = () => {
                            </div>
                            <div className="contact__form">
                               <form onSubmit={sendEmail} ref={form}>
-                                 <input type="text" required placeholder="Your Name" />
-                                 <input type="email" required placeholder="Your Email" />
-                                 <textarea required placeholder="Your Message"></textarea>
+                                 <input type="text" name="name" required placeholder="Your Name" />
+                                 <input type="email" name="email" required placeholder="Your Email" />
+                                 <textarea required placeholder="Your Message" name="message" ></textarea>
                                  <button type="submit" className="z-btn">Send Message</button>
                               </form>
                            </div>
