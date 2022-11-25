@@ -6,8 +6,9 @@ const HomeTwoSingleSlide = ({
   content_class,
   attr_1,
   attr_2,
-  attr_3 = `Our course will cover everything you need to become a professional web developer or UI/UX 
-  designer and Full Stack Digital Marketing from scratch, without any prior experience.`,
+  attr_3 = `Our agency will cover everything you need to become a professional business in Web developer or Graphics design or
+   Full Stack Seo and Full Stack 
+  Social Media Management & Marketing from scratch`,
   btn_text,
 }) => {
   return (
@@ -15,7 +16,7 @@ const HomeTwoSingleSlide = ({
       <div className="single-slider single-slider-2 slider__height slider__height-2 d-flex align-items-center">
         <div className="container">
           <img
-            src="assets/img/4.jpeg"
+            src="assets/img/slider/02/slider-3.jpg"
             alt=""
             style={{
               width: "100%",

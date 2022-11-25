@@ -26,11 +26,11 @@ const HomeTwoHeroSlider = () => {
             attr_1={<span className="Instaquirk">Welcome To Instaquirk.</span>}
             attr_2={
               <h1>
-                Start your dream today.
-                <br /> Conquer the world.
+                Get more
+                <br /> Impact Fasted
               </h1>
             }
-            btn_text="Enroll Now"
+            btn_text="Let Us Hear Your Vision"
           />
 
           <HomeTwoSingleSlide
@@ -39,13 +39,13 @@ const HomeTwoHeroSlider = () => {
             attr_1={<span className="Instaquirk">Welcome To Instaquirk</span>}
             attr_2={
               <h1>
-                Learn Effectively
-                <br />
-                that will take you towards your goal
+                We will help <br />
+                your business grow faster
               </h1>
             }
-            attr_3="Our course will cover everything you need to become a professional web developer or UI/UX designer and Full Stack Digital Marketing from scratch, without any prior experience."
-            btn_text="Enroll Now"
+            attr_3="Our agency will cover everything you need to become a professional business in Web developer or Graphics design or Full Stack Seo and Full Stack 
+            Social Media Management & Marketing from scratch "
+            btn_text="Get an Estimated Quote"
           />
         </Slider>
       </section>

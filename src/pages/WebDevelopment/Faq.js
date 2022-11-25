@@ -22,7 +22,7 @@ const HomeTwoFaq = ({ arrayFaq }) => {
                 >
                   <span>Thinking</span>
                   <h2>
-                    Knowledge is <br /> the best investment
+                    Future is brighter when you're <br /> more prepared
                   </h2>
                 </div>
 
@@ -32,36 +32,34 @@ const HomeTwoFaq = ({ arrayFaq }) => {
                 >
                   <div className="faq__accordion p-relative">
                     <div className="accordion" id="accordionExample">
-                      {arrayFaq.map((item,key) => {
+                      {arrayFaq.map((item, key) => {
                         return (
                           <div className="card">
-                        <div className="card-header" id={`acc_${key+1}`}>
-                          <h5 className="mb-0">
-                            <button
-                              className="btn btn-link collapsed"
-                              data-bs-toggle="collapse"
-                              data-bs-target={`#collapse_${key+1}`}
-                              aria-expanded="true"
-                              aria-controls={`collapse_${key+1}`}
-                            >
-                              {item.question}
-                            </button>
-                          </h5>
-                        </div>
+                            <div className="card-header" id={`acc_${key + 1}`}>
+                              <h5 className="mb-0">
+                                <button
+                                  className="btn btn-link collapsed"
+                                  data-bs-toggle="collapse"
+                                  data-bs-target={`#collapse_${key + 1}`}
+                                  aria-expanded="true"
+                                  aria-controls={`collapse_${key + 1}`}
+                                >
+                                  {item.question}
+                                </button>
+                              </h5>
+                            </div>
 
-                        <div
-                          id={`collapse_${key+1}`}
-                          className="collapse"
-                          aria-labelledby={`acc_${key+1}`}
-                          data-bs-parent="#accordionExample"
-                        >
-                          <div className="card-body accordion-body">
-                            <p>
-                              {item.solution}
-                            </p>
+                            <div
+                              id={`collapse_${key + 1}`}
+                              className="collapse"
+                              aria-labelledby={`acc_${key + 1}`}
+                              data-bs-parent="#accordionExample"
+                            >
+                              <div className="card-body accordion-body">
+                                <p>{item.solution}</p>
+                              </div>
+                            </div>
                           </div>
-                        </div>
-                      </div>
                         );
                       })}
                     </div>
