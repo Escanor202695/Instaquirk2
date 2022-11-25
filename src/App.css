@@ -213,7 +213,7 @@ ul.drop-down-menu li{
 }
 ul.drop-down-menu li ul {
     position: absolute;
-    width: 138px;
+    width: 150px;
     left: 0;
     top: 160%;
     background: white;
@@ -257,4 +257,97 @@ ul.drop-down-menu li:hover ul{
     font-weight: 700 !important;
     margin-bottom: 25px;
     font-family: 'Montserrat' !important;
+}
+
+.page__title-content.mt-100.about-us {
+    margin: 0 82px;
+    font-family: 'Montserrat';
+}
+
+/* .page__title-content.mt-100 {
+    text-align: center !important
+}
+
+.page__title-content.mt-100 h2 {
+    font-family: "Montserrat" !important;
+    font-size: 68px !important;
+}
+
+.page__title-content p {
+    width: 80% !important;
+    margin: 0 auto !important;
+    padding: 15px 0 !important;
+    font-weight: 400 !important;
+    font-size: 18px !important;
+    line-height: 35px !important;
+    font-family: 'Montserrat' !important;
+    padding-bottom: 80px !important
+} */
+/* ///  about section css*/
+.about__thumb.m-img img {
+    height: 100vh !important;
+    width: 100% !important;
+    object-fit: cover !important;
+    border-radius: 10px !important;
+}
+.section__title span {
+    font-size: 18px;
+    color: #4636ff;
+    display: inline-block;
+    font-weight: 700;
+    font-family: 'Montserrat' !important;
+    margin-bottom: 25px;
+}
+.about__content p {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 40px;
+    font-family: 'Montserrat' !important;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding: 50px 0;
+}
+
+.about___more h3 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 6px !important;
+}
+span.about_id {
+    margin-right: 12px;
+}
+
+.about___more {
+    margin: 10px !important;
+}
+p.about__describe{
+        font-size: 15px !important;
+        line-height: 23px !important;
+        margin-bottom: 40px !important;
+        margin-top: 25px !important;
+        color: black  !important;
+}
+@media only screen and (max-width: 990px)  {
+p.about__describe{
+        font-size: 15px !important;
+        line-height: 23px !important;
+        margin-bottom: 40px !important;
+        margin-top: 25px !important;
+        color: black  !important;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) !important;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding: 50px 0;
+}
 }
