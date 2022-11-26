@@ -75,7 +75,7 @@ function webDevelopment(props) {
         title="Clean, Optimised & Future-Ready."
         subtitle="web development"
       />
-      <div className="pt-100 pb-100 web-dev">
+      <div className="pt-100 web-dev">
         <div className="parent">
           <div className="web-development-details">
             <h1>
@@ -103,7 +103,7 @@ function webDevelopment(props) {
           </div>
           <div className="web-development text-center mb-100">
             <img
-              src="/assets/img/gif.gif"
+              src="/assets/img/vector2.jpg"
               alt="vector"
               className="w-full h-auto"
             />
@@ -144,7 +144,7 @@ function webDevelopment(props) {
       </div> */}
 
       <div className="web-development-life-cycle">
-        <h1>Development lifecycle</h1>
+        <h1>Development Lifecycle</h1>
         <div className="development-image">
           <img
             src="/assets/img/dev.png"
@@ -176,7 +176,7 @@ function webDevelopment(props) {
           </p>
         </div>
       </div> */}
-      <div className=" pb-80 web-dev">
+      <div className="pb-80 web-dev">
         <div className="parent">
           <div className="web-development text-center mb-50">
             <img
