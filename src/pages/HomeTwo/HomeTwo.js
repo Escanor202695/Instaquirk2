@@ -28,6 +28,7 @@ const HomeTwo = () => {
         "Our agency team always ready to help  your business and also fixing the problem. You can get our service easily when you have to need.",
     },
   ];
+  const opacity = 1;
   return (
     <>
       <PageHelmet pageTitle="Instaquirk" />
@@ -35,7 +36,7 @@ const HomeTwo = () => {
       <HomeTwoHeroSlider />
       <HomeTwoFeatures />
       <HomeTwoFaq arrayFaq={Faq} />
-      <HomeTwoAchievement />
+      <HomeTwoAchievement opacity={opacity} />
       <HomeTwoExpertArea />
       {/*<HomeTwoCounter/>
       <HomeTwoTestimonial />*/}

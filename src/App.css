@@ -334,7 +334,99 @@ p.about__describe{
         margin-top: 25px !important;
         color: black  !important;
 }
+.about-more-img img {
+    height: 120vh !important;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.about-more-img{
+    text-align: center;
+}
+.achievement__content p {
+    margin-bottom: 50px;
+    line-height: 30px;
+    font-family: 'Montserrat' !important;
+    font-size: 17px;
+    padding-top: 16px !important;
+    padding-bottom: 20px !important;
+}
+.page__title-content h2 {
+    font-size: 52px !important;
+    color: #ffffff;
+    font-family: 'Montserrat';
+}
+
+.web-development img {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+.web-dev {
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.web-development-details h1 {
+    font-family: 'Montserrat';
+    font-size: 40px;
+    line-height: 60px;
+}
+.web-development-details p {
+    font-family: 'Montserrat';
+    font-size: 13px;
+    color: black;
+    font-weight: 500;
+}
+
+.tech_item img {
+    height: 134px;
+    margin-bottom: 21px;
+}
+.tech_items {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 4px;
+    grid-row-gap: 0px;
+    margin: 46px;
+}
+.technologies h1 {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 45px;
+    margin-bottom: 41px !important;
+    padding-bottom: 40px;
+}
+.tech_item h4 {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+
+.web-development-life-cycle img {
+    height: 100% !important;
+    width: 100%;
+    margin: 100px 0 !important;
+    margin-bottom: 210px !important;
+}
+.development-image {
+    margin: 0 100px !important;
+}
+.web-development-life-cycle h1 {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 50px;
+}
+
 @media only screen and (max-width: 990px)  {
+    .single-slider.single-slider-2.slider__height.slider__height-2.d-flex.align-items-center {
+        padding: 180px 0 !important;
+    }
+    .development-image {
+        width: 95% !important;
+        margin: 0 auto;
+    }
 p.about__describe{
         font-size: 15px !important;
         line-height: 23px !important;
@@ -350,4 +442,56 @@ p.about__describe{
     grid-row-gap: 0px;
     padding: 50px 0;
 }
+.about-more-img img {
+    height: 100vh !important;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.section__title span {
+    font-size: 16px !important
+    ;}
+
+    .section__title h2 {
+        font-size: 36px !important;
+        font-weight: 800 !important;
+        line-height: 1.5 !important;
+        text-transform: capitalize !important;
+        font-family: 'Montserrat';
+    }
+
+    .page__title-content.mt-100.about-us {
+        margin: 0 50px;
+        font-family: 'Montserrat';
+    }
+    .about-all-section {
+        overflow-x: hidden !important;
+    }
+    .web-dev {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .tech_items {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 4px;
+        grid-row-gap: 0px;
+        margin: 20px;
+    }
+    .tech_item {
+        text-align: center !important;
+    }
+
+    .tech_item img {
+        margin-bottom: 0px !important;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .page__title-content h2 {
+        font-size: 41px !important;
+        margin-bottom: 28px;
+        margin-top: 100px;
+    }
 }

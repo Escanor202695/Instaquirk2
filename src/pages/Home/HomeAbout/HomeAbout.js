@@ -2,7 +2,7 @@ import { CgArrowLongRight } from "react-icons/cg";
 import { FaCheck } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-const HomeAbout = () => {
+const HomeAbout = ({ opacity }) => {
   return (
     <>
       <section className="about__area pb-200 pt-100">
@@ -59,7 +59,11 @@ const HomeAbout = () => {
                     </li>
                   </ul>
                 </div>
-                <Link to="/services" className="z-btn ">
+                <Link
+                  to="/services"
+                  className="z-btn"
+                  style={{ opacity: `${opacity}` }}
+                >
                   What we do
                   <i>
                     {" "}

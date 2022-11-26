@@ -67,14 +67,14 @@ const Sidebar = ({ show, handleClose }) => {
                       aria-labelledby="menu-tab"
                     >
                       <div className="side_navBar">
-                        <Collapsible
+                        {/* <Collapsible
                           trigger={<NavLink to="/home">Home</NavLink>}
                           triggerTagName="div"
                           triggerOpenedClassName="icon_close"
                           triggerClassName="iconAdd"
                           open={false}
-                        >
-                          <ul className="sidebar_sub_menu text-white">
+                        > */}
+                        {/* <ul className="sidebar_sub_menu text-white">
                             <li className="pt-10">
                               <NavLink to="/home">Home style 1</NavLink>
                             </li>
@@ -141,8 +141,12 @@ const Sidebar = ({ show, handleClose }) => {
                                 </li>
                               </ul>
                             </Collapsible>
-                          </ul>
-                        </Collapsible>
+                          </ul> */}
+                        {/* </Collapsible> */}
+
+                        <div className="about iconAdd">
+                          <NavLink to="/home">Home</NavLink>{" "}
+                        </div>
 
                         <div className="about iconAdd">
                           <NavLink to="/about">About Us </NavLink>
@@ -157,17 +161,18 @@ const Sidebar = ({ show, handleClose }) => {
                         >
                           <ul className="sidebar_sub_menu submenu text-white">
                             <li>
-                              <NavLink to="/services">Services</NavLink>
+                              <NavLink to="/">Services One</NavLink>
                             </li>
                             <li>
-                              <NavLink to="/servicesDetails">
-                                Services Details
-                              </NavLink>
+                              <NavLink to="/">Services Two</NavLink>
+                            </li>
+                            <li>
+                              <NavLink to="/">Services Three</NavLink>
                             </li>
                           </ul>
                         </Collapsible>
 
-                        <Collapsible
+                        {/* <Collapsible
                           trigger={<NavLink to="/portfolio">Insights</NavLink>}
                           triggerTagName="div"
                           triggerOpenedClassName="icon_close"
@@ -190,9 +195,9 @@ const Sidebar = ({ show, handleClose }) => {
                               <NavLink to="/teamDetails">team Details</NavLink>
                             </li>
                           </ul>
-                        </Collapsible>
+                        </Collapsible> */}
 
-                        <Collapsible
+                        {/* <Collapsible
                           trigger={<NavLink to="/blogs">Blog</NavLink>}
                           triggerTagName="div"
                           triggerOpenedClassName="icon_close"
@@ -207,7 +212,11 @@ const Sidebar = ({ show, handleClose }) => {
                               <NavLink to="/blogDetails">Blog Details</NavLink>
                             </li>
                           </ul>
-                        </Collapsible>
+                        </Collapsible> */}
+
+                        <div className="about iconAdd">
+                          <NavLink to="/blogs">Blog</NavLink>
+                        </div>
 
                         <div className="about iconAdd border-0">
                           <NavLink to="/contact">Contact Us </NavLink>
@@ -228,10 +237,11 @@ const Sidebar = ({ show, handleClose }) => {
                           </a>
                         </div>
                         <p>
-                          We must explain to you how all seds this mistakens
-                          idea off denouncing pleasures and praising pain was
-                          born and I will give you a completed accounts of the
-                          system and expound.
+                          As an unemployment service provider, we assist clients
+                          in finding employment. Develop a business or assist in
+                          its development. Additionally, we offer courses in Web
+                          Development, Graphics Design, Full Stack SEO, and
+                          Social Media Management & Marketing
                         </p>
                         <a href="contact.html" className="z-btn z-btn-white">
                           contact us

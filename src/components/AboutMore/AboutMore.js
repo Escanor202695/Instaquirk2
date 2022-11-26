@@ -29,7 +29,7 @@ const AboutMore = () => {
 
   return (
     <>
-      <section className="about__area">
+      <section className="about__area pb-100 pt-50">
         <div className="container">
           <div className="row">
             <div className="col-xl-6 ">
@@ -57,7 +57,7 @@ const AboutMore = () => {
               </div>
             </div>
             <div className="col-xl-6 pr-0 col-lg-6">
-              <div className="about__thumb m-img">
+              <div className="about-more-img">
                 <img src="assets/img/20.jpg" alt="" />
                 <div className="about__shape">
                   {/* <img src="assets/instaquirkbg/2.jpg" alt=""/> */}

@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import Sidebar from "../../../components/Sidebar/Sidebar";
@@ -53,7 +54,7 @@ const HomeTwoHeader = () => {
                             <NavLink to="/about">About Us </NavLink>
                           </li>
                           <li>
-                            <NavLink to="/services">Services</NavLink>
+                            <a className="services-item">Services</a>
                             <ul>
                               <li>
                                 <NavLink to="/" className="dropdown-item">

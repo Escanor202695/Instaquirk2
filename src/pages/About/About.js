@@ -29,18 +29,23 @@ const About = () => {
   ];
   //  const aboutSubTitle = `As an unemployment service provider, we assist clients in finding employment. Develop a business or assist in its development. Additionally,
   //   we offer courses in Web Development, Graphics Design, Full Stack SEO, and Social Media Management & Marketing `
+  const opacity = 0;
   return (
-    <>
+    <div className="about-all-section">
       <HomeTwoHeader />
       <CommonPageHeader title="About Us" subtitle="" />
-      <HomeAbout />
+      <div className="pt-60">
+        <HomeAbout opacity={opacity} />
+      </div>
       <AboutMore />
       <HomeTwoFaq arrayFaq={Faq} />
-      <HomeTwoAchievement />
+      <div className="pt-130 pb-150">
+        <HomeTwoAchievement opacity={opacity} />
+      </div>
       {/* <HomeBrands /> */}
       <CommonCtaArea />
       <HomeTwoFooter />
-    </>
+    </div>
   );
 };
 

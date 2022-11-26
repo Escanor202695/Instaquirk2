@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const HomeTwoAchievement = () => {
+const HomeTwoAchievement = ({ opacity }) => {
   return (
     <>
       <section className="achievement__area pt-135 pb-40 ">
@@ -39,7 +39,11 @@ const HomeTwoAchievement = () => {
                     <h3>Consultancy for private placements</h3>
                   </div>
                 </div>
-                <Link to="/about" className="z-btn">
+                <Link
+                  to="/about"
+                  className="z-btn"
+                  style={{ opacity: `${opacity}` }}
+                >
                   Explore More
                 </Link>
               </div>
