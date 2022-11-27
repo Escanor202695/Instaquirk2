@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import useGlobalContext from "../../../hooks/useGlobalContext";
@@ -94,18 +95,26 @@ const StyleFiveHeader = () => {
                             <NavLink to="/about">About Us </NavLink>
                           </li>
                           <li>
-                            <NavLink to="/services">Services</NavLink>
+                            <a className="services-item">Services</a>
                             <ul className="submenu">
                               <li>
-                                <NavLink to="/services">Service One</NavLink>
-                              </li>
-                              <li>
-                                <NavLink to="/">Service Two</NavLink>
-                              </li>
-                              <li>
-                                <NavLink to="/servicesDetails">
-                                  Service Three
+                                <NavLink to="/web_development">
+                                  Web Development
                                 </NavLink>
+                              </li>
+                              <li>
+                                <NavLink to="/graphic_details">
+                                  Graphics Design
+                                </NavLink>
+                              </li>
+                              <li>
+                                <NavLink to="/social_media_management">
+                                  {" "}
+                                  Social Media Management & Marketing
+                                </NavLink>
+                              </li>
+                              <li>
+                                <NavLink to="/seo"> SEO</NavLink>
                               </li>
                             </ul>
                           </li>

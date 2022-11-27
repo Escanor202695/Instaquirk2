@@ -57,19 +57,32 @@ const HomeTwoHeader = () => {
                             <a className="services-item">Services</a>
                             <ul>
                               <li>
-                                <NavLink to="/" className="dropdown-item">
-                                  Service one
+                                <NavLink
+                                  to="/web_development"
+                                  className="dropdown-item"
+                                >
+                                  Web Development
                                 </NavLink>
                               </li>
                               <li>
-                                <NavLink to="/" className="dropdown-item">
-                                  Service two
+                                <NavLink
+                                  to="/graphic_details"
+                                  className="dropdown-item"
+                                >
+                                  Graphics Design
                                 </NavLink>
                               </li>{" "}
-                              <br />
+                              <li>
+                                <NavLink
+                                  to="/social_media_management"
+                                  className="dropdown-item social-item"
+                                >
+                                  Social Media Management & Marketing
+                                </NavLink>
+                              </li>{" "}
                               <li>
                                 <NavLink to="/" className="dropdown-item">
-                                  Service three
+                                  SEO
                                 </NavLink>
                               </li>
                             </ul>

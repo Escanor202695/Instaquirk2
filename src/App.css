@@ -213,7 +213,7 @@ ul.drop-down-menu li{
 }
 ul.drop-down-menu li ul {
     position: absolute;
-    width: 150px;
+    width: 360px;
     left: 0;
     top: 160%;
     background: white;
@@ -466,6 +466,7 @@ p.about__describe{
     height: 60vh !important;
 }
 
+
 .graphics-photo img {
     width: 400px !important;
     height: 400px;
@@ -479,7 +480,171 @@ p.about__describe{
     margin: 14px;
 }
 
+/* ///SEO */
+
+.web-seo h3 {
+    font-family: 'Montserrat';
+    margin-top: 10px;
+    font-weight: 900;
+    line-height: 60px;
+    font-size: 43px;
+}
+.Seo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh !important;
+}
+.Seo_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 49vh !important;
+}
+.Seo_section {
+    
+    margin-top: 80px;
+}
+
+.Seo {
+    margin-right: 62px ;
+}
+.Cooperation {
+    background: #F3F1FA;
+    padding: 150px 50px;
+}
+.Proccess_content {
+    background: #ffffff;
+    padding: 150px 50px;
+}
+
+.Cooperation h1 {
+    text-align: center;
+    font-family: 'Montserrat';
+    color: #000;
+    font-size: 54px;
+    line-height: 60px;
+    margin-bottom: 60px;
+}
+.Proccess_content h1 {
+    text-align: center;
+    font-family: 'Montserrat';
+    color: rgb(0, 0, 0);
+    font-size: 54px;
+    line-height: 60px;
+    margin-bottom: 60px;
+    text-transform: capitalize;
+}
+
+.Cooperation_content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+
+    .Cooperation_content_item {
+        text-align: left;
+        padding: 41px;
+        margin: 10px;
+        background: #FFF;
+        border-radius: 10px;
+        color: #FFF !important;
+        transition: .3s ease-in-out !important
+    }
+
+    .Cooperation_content_item:hover{
+        background: linear-gradient(210deg, #6c0b9f, #a91ac375) !important;
+    }
+  
+
+    .Cooperation_content_item:hover.Cooperation_content_item h4 {
+        color:#FFF !important
+    }
+    .Cooperation_content_item:hover.Cooperation_content_item h2 {
+        color:#FFF !important
+
+    }
+    .Cooperation_content_item:hover.Cooperation_content_item p{
+        color:#FFF !important
+    }
+
+    .Cooperation_content_item h4 {
+        font-size: 30px;
+        font-family: 'Montserrat';
+        font-weight: 700;
+        color: black;
+    }
+    .Cooperation_content_item h2 {
+        font-size: 26px;
+        font-family: 'Montserrat';
+        color: #3a3a3a;
+        line-height: 36px;
+        font-weight: 700;
+    }
+    .Cooperation_content_item p {
+        color: #000;
+        font-family: 'Montserrat';
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    .marketing{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+    }
+
+    .web-seo p{
+       
+            font-family: 'Montserrat';
+            font-size: 14px;
+            color: black;
+            font-weight: 400;
+      
+    }
+
+    .last__topic {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(60deg, #690ed0 0%, #170da2 100%) !important;
+        margin-top: 100px;
+        padding: 180px;
+        text-align: center;
+        flex-direction: column;
+    }
+    .last__topic h1 {
+        color: #FFF;
+        font-family: 'Montserrat';
+        font-size: 55px;
+        line-height: 70px;
+    }
 @media only screen and (max-width: 990px)  {
+    .z-btn-white-2 {
+        font-size: 14px !important;
+        height: 44px;
+        line-height: 40px;
+    }
+    .last__topic h1 {
+        color: #FFF;
+        font-family: 'Montserrat';
+        font-size: 40px;
+        line-height: 70px;
+    }
+    .Cooperation_content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr) !important;
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+    
+.Seo {
+    margin-right: 0px !important;
+}
     .single-slider.single-slider-2.slider__height.slider__height-2.d-flex.align-items-center {
         padding: 180px 0 !important;
     }

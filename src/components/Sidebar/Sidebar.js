@@ -161,13 +161,23 @@ const Sidebar = ({ show, handleClose }) => {
                         >
                           <ul className="sidebar_sub_menu submenu text-white">
                             <li>
-                              <NavLink to="/">Services One</NavLink>
+                              <NavLink to="/web_development">
+                                Web Development
+                              </NavLink>
                             </li>
                             <li>
-                              <NavLink to="/">Services Two</NavLink>
+                              <NavLink to="/graphic_details">
+                                Graphics Design
+                              </NavLink>
                             </li>
                             <li>
-                              <NavLink to="/">Services Three</NavLink>
+                              <NavLink to="/social_media_management">
+                                {" "}
+                                Social Media Management & Marketing
+                              </NavLink>
+                            </li>
+                            <li>
+                              <NavLink to="/seo"> SEO</NavLink>
                             </li>
                           </ul>
                         </Collapsible>
