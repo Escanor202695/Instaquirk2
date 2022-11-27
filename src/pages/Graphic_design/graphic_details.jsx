@@ -33,49 +33,48 @@ function graphic_details() {
     "/assets/img/graphics/3.png",
     "/assets/img/graphics/39.png",
     "/assets/img/graphics/7.png",
-    "/assets/img/graphics/9.png",
   ];
 
   const services = [
     {
       title: "Business logo",
-      icon:  1,
+      src: "assets/tech/business.png",
     },
     {
       title: "UX/UI Design",
-      icon: 1,
+      src: "assets/tech/uiux.png",
     },
     {
       title: "Business Card",
-      icon: 1,
+      src: "assets/tech/card.png",
     },
     {
       title: "Social Media Post",
-      icon: 1,
+      src: "assets/tech/social.png",
     },
     {
       title: "Marketing Post",
-      icon: 1,
+      src: "assets/tech/social12.png",
     },
     {
       title: "Flyer(Portrait)",
-      icon: 1,
+      src: "assets/tech/fly.png",
     },
     {
       title: "Custom Print",
-      icon: 1,
+      src: "assets/tech/custom.png",
     },
     {
       title: "Social Media Cover Photo",
-      icon: 1,
+      src: "assets/tech/sodd.png",
     },
     {
       title: "Portfolio",
-      icon: 1,
+      src: "assets/tech/port.png",
     },
     {
       title: "Poster",
-      icon: 1,
+      src: "assets/tech/poster1.png",
     },
   ];
   return (
@@ -85,8 +84,8 @@ function graphic_details() {
         title="Your brand. Your story."
         subtitle="Design anything and everything."
       />
-      <div className="bg-[#f0f2f5] w-[100%] m-b-[5px]">
-        <div className="container">
+      <>
+        {/* <div className="container">
           <p className="text-[20px] p-t-[20px] linear-[1.2] text-color bg-red-200">
             Need to make a lasting impression? The right combination of colors,
             shapes and words will define your brand. Get the perfect logo and
@@ -95,13 +94,54 @@ function graphic_details() {
             Whether it is a company or oneself to establish unique identity
             visuals matters. Our team across the world uses the power of
             creativity to transform businesses for the better .
-          </p>
-        </div>
-        <div className="flex align-center justify-center ">
-          <h1 >Our Top Services</h1>
-        </div>
+          </p>   
+        </div> */}
 
-        <div className=" p-[50px] flex justify-start"> 
+        <div className="pt-100 web-dev">
+          <div className="parent">
+            <div className="web-development-details">
+              <h1>
+                Our Graphics
+                <br /> Solution
+              </h1>
+              <p>
+                Need to make a lasting impression? The right combination of
+                colors, shapes and words will define your brand. Get the perfect
+                logo and ensure your branding hits the spot with these services.
+                <br />
+                Whether it is a company or oneself to establish unique identity
+                visuals matters. Our team across the world uses the power of
+                creativity to transform businesses for the better .
+              </p>
+            </div>
+            <div className="web-development text-center mb-100 graphics_design">
+              <img
+                src="/assets/img/graphics.jpg"
+                alt="vector"
+                className="w-full h-auto"
+              />
+            </div>
+          </div>
+        </div>
+        <div className="technologies pb-100">
+          <h1>Technologies we work with</h1>
+          <div className="tech_items">
+            {services.map((techItem) => {
+              const { src, title } = techItem;
+              return (
+                <div className="tech_item">
+                  <img src={src} alt="" />
+                  <h4>{title}</h4>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+        {/* <div className="flex align-center justify-center ">
+          <h1>Our Top Services</h1>
+        </div> */}
+
+        {/* <div className=" p-[50px] flex justify-start"> 
           {services.map((service) => {
             return (
               <Service
@@ -110,17 +150,17 @@ function graphic_details() {
               />
             );
           })}
-        </div>
+        </div> */}
 
-        <div className="work_segment">
-          <h1 className="block text-center m-t-[20px] ">Sample Works</h1>
-          <div className="flex flex-col flex-wrap h-[2600px] py-0 px-[20px]">
+        <div className="graphics__work pb-200 mb-40">
+          <h1>Sample Works</h1>
+          <div className="work_segment">
             {images.map((image, key) => {
               return <GalleryImage index={key} images={images} image={image} />;
             })}
           </div>
         </div>
-      </div>
+      </>
       <CommonCtaArea />
       <HomeTwoFooter />
     </>

@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./App.css";
 import ScrollTop from "./components/ScrollTop";
 import About from "./pages/About/About";
 import BlogDetails from "./pages/BlogDetails/BlogDetails";
@@ -9,9 +10,9 @@ import HeaderStyleFour from "./pages/HeaderStyleFour/HeaderStyleFour";
 import HeaderStyleSeven from "./pages/HeaderStyleSeven/HeaderStyleSeven";
 import HeaderStyleSix from "./pages/HeaderStyleSix/HeaderStyleSix";
 
-import SMM from "./pages//SocialMediaMarketing/SocialMediaManagement"
-import Home from './pages/Home/Home';
-import  "./App.css"
+import SMM from "./pages//SocialMediaMarketing/SocialMediaManagement";
+import Home from "./pages/Home/Home";
+import "./App.css";
 import HomeThree from "./pages/HomeThree/HomeThree";
 import HomeTwo from "./pages/HomeTwo/HomeTwo";
 import Portfolio from "./pages/Portfolio/Portfolio";
@@ -24,8 +25,6 @@ import Seo from "./pages/SEO/seo";
 import Team from "./pages/Team/Team";
 import TeamDetails from "./pages/TeamDetails/TeamDetails";
 
-
-
 function App() {
   return (
     <>
@@ -35,7 +34,7 @@ function App() {
           <Route path="/" element={<HomeTwo />} />
           <Route path="/home" element={<Home />} />
           <Route path="/homeTwo" element={<HomeTwo />} />
-          dd
+
           <Route path="/homeThree" element={<HomeThree />} />
           <Route path="/headerStyleFour" element={<HeaderStyleFour />} />
           <Route path="/headerStyleFive" element={<HeaderStyleFive />} />
@@ -52,11 +51,10 @@ function App() {
             <Route path="/blogs" element={<Blogs/>} />
             <Route path="/blogDetails" element={<BlogDetails/>} />*/}
 
-            <Route path="/contact" element={<Contact/>} />
-            <Route path="/graphic_details" element={<Graphic_details/>}/>
-            <Route path="/seo" element={<Seo/>}/>
-            <Route path="/social_media_management" element={<SMM/>}/>
-
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/graphic_details" element={<Graphic_details />} />
+          <Route path="/seo" element={<Seo />} />
+          <Route path="/social_media_management" element={<SMM />} />
         </Routes>
       </BrowserRouter>
     </>

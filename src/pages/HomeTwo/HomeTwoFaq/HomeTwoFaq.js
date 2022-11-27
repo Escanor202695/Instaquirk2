@@ -22,7 +22,7 @@ const HomeTwoFaq = ({ arrayFaq }) => {
                 >
                   <span>Thinking</span>
                   <h2>
-                    Knowledge is <br /> the best investment
+                    Future is brighter when you're <br /> more prepared
                   </h2>
                 </div>
 

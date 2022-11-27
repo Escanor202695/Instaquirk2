@@ -13,36 +13,22 @@ import HomeTwoHeroSlider from "./HomeTwoHeroSlider/HomeTwoHeroSlider";
 const HomeTwo = () => {
   const Faq = [
     {
-      question: " Can you help my business grow?",
+      question: "Why should i choose your agency?",
       solution:
-        "He nicked it show off show pick your nose and blow  off such a fiber bleeding well get stuffed mate no biggie, in my flat bugger wind",
+        "There is no work that we neglect at our company.The only thing we can do to help others is to provide them with services whenever possible.",
     },
     {
-      question: " Can you help in me in web development?",
-      solution:
-        "Our agency team always ready to help  your web development and also fixing the bug. You can get our service easily when you have to need.",
+      question: "Can you help my business grow?",
+      solution: "Our team always ready to help your business.",
     },
     {
-      question: "Can i get help for SEO or digital marketing?",
+      question:
+        "I need a complete some talent team for my business. Who will I be working with?",
       solution:
-        "Our agency team always ready to help  your Digital marketing and SEO. You can get our service easily when you have to need.",
-    },
-    {
-      question: "Can I get UI/UX course from here ?",
-      solution:
-        "We are trying to bring out this course as soon as possible. Please Stay Tuned to Us?",
-    },
-    {
-      question: "After course finishing, can I get a job ?",
-      solution:
-        "Yes, this course is designed for jobs. After finishing our course we drop your resume in my others companies.",
-    },
-    {
-      question: "Can I do freelancing after completing this course?",
-      solution:
-        "After completing this course, our agency team will show you how to do freelancing.",
+        "Our agency team always ready to help  your business and also fixing the problem. You can get our service easily when you have to need.",
     },
   ];
+  const opacity = 1;
   return (
     <>
       <PageHelmet pageTitle="Instaquirk" />
@@ -50,7 +36,7 @@ const HomeTwo = () => {
       <HomeTwoHeroSlider />
       <HomeTwoFeatures />
       <HomeTwoFaq arrayFaq={Faq} />
-      <HomeTwoAchievement />
+      <HomeTwoAchievement opacity={opacity} />
       <HomeTwoExpertArea />
       {/*<HomeTwoCounter/>
       <HomeTwoTestimonial />*/}

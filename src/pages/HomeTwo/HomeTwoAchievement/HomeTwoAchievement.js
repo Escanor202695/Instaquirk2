@@ -1,25 +1,23 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const HomeTwoAchievement = () => {
+const HomeTwoAchievement = ({ opacity }) => {
   return (
     <>
-      <section className="achievement__area pt-135 pb-40">
+      <section className="achievement__area pt-135 pb-40 ">
         <div className="container">
           <div className="row">
             <div className="col-xl-5 col-lg-6 col-md-6">
               <div className="achievement__content">
                 <div className="section__title section__title-3 mb-20">
-                  <span>Among the achievement</span>
-                  <h2>
-                    You are our main priority, and we are committed to your
-                    success
-                  </h2>
+                  <span>Solution</span>
+                  <h2>We provide the best solutions for your business </h2>
                 </div>
                 <p>
-                  The development of a successful product requires a balanced
-                  approach. We blend personalized, in-depth technical guidance
-                  with our global scale.
+                  For your business, we offer the most effective solutions.
+                  Providing the most excellent service to our clients is always
+                  our top priority.In order to ensure that no client is at risk
+                  as a result of his negligence
                 </p>
                 <div
                   className="achievement__wrapper d-flex d-md-block d-lg-flex justify-content-between mb-35 wow fadeInUp"
@@ -27,20 +25,25 @@ const HomeTwoAchievement = () => {
                 >
                   <div className="achievement__item mb-30">
                     <img
-                      src="assets/img/icon/achievement/affordable.png"
+                      src="assets/img/icon/achievement/achievement-1.png"
                       alt="achievement"
                     />
-                    <h3>Affordability consulting for acquisitions</h3>
+                    <h3>Acquisitions assist consulting</h3>
                   </div>
                   <div className="achievement__item mb-30">
                     <img
-                      src="assets/img/icon/achievement/idea.png"
+                      className="img-icon"
+                      src="assets/img/icon/achievement/achievement-2.png"
                       alt="achievement"
                     />
                     <h3>Consultancy for private placements</h3>
                   </div>
                 </div>
-                <Link to="/about" className="z-btn">
+                <Link
+                  to="/about"
+                  className="z-btn"
+                  style={{ opacity: `${opacity}` }}
+                >
                   Explore More
                 </Link>
               </div>

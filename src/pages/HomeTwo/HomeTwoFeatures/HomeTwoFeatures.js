@@ -4,8 +4,7 @@ import { CgArrowLongRight } from "react-icons/cg";
 import { GiDigitalTrace } from "react-icons/gi";
 import { BsMicrosoft } from "react-icons/bs";
 import { SiAntdesign } from "react-icons/si";
-import { DiCodeBadge } from "react-icons/di";
-
+import { AiOutlineSearch } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import HomeTwoSingleFeature from "../../../components/HomeTwoSingleFeature/HomeTwoSingleFeature";
 
@@ -20,16 +19,17 @@ const HomeTwoFeatures = () => {
                 <div className="section__title section__title-h2 mb-25">
                   <span>What we do ?</span>
                   <h2>
-                    Better than other <br /> Course Providers!
+                    Better than other <br /> Agency Providers
                   </h2>
                 </div>
                 <p>
-                  We are delivering the Best SEO, Web Development and Full Stack
-                  Digital Marketing Course at an Affordable Pricing! Check our
-                  Courses and One time Exclusive Discounts!
+                  In terms of SEO, Web Development, and Full Stack, we offer the
+                  most comprehensive services Social Media Management &
+                  Marketing.The client's business can be improved according to
+                  his needs by using our services.
                 </p>
                 <Link to="/about" className="z-btn">
-                  See More
+                  Explore More
                   <i>
                     <CgArrowLongRight />
                   </i>
@@ -43,25 +43,25 @@ const HomeTwoFeatures = () => {
                     <HomeTwoSingleFeature
                       icon={<BsMicrosoft />}
                       title="Web Development"
-                      desc="In our web development courses, you'll learn everything you need to know"
+                      desc="We will provide you with our excellent services for Web Development"
                     />
                     <HomeTwoSingleFeature
                       icon={<SiAntdesign />}
-                      title="UI/UX Designer"
-                      desc="Learn everything you need to know about UI/UX Design in our courses"
+                      title="Graphics Designer"
+                      desc="We will provide you with our excellent services for Graphics Design"
                     />
                   </div>
 
                   <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                     <HomeTwoSingleFeature
                       icon={<GiDigitalTrace />}
-                      title="Digital Marketing"
-                      desc="Our courses will teach you everything you need to know about Digital Marketing"
+                      title="Social Media Management & Marketing"
+                      desc="We will provide you with our excellent services for Social Media Management & Marketing"
                     />
                     <HomeTwoSingleFeature
-                      icon={<DiCodeBadge />}
-                      title="Ethical Hacking"
-                      desc="The Ethical Hacking courses we offer will teach you everything you need to know"
+                      icon={<AiOutlineSearch />}
+                      title="SEO"
+                      desc="We will provide you with our excellent services for full stack SEO"
                     />
                   </div>
                 </div>

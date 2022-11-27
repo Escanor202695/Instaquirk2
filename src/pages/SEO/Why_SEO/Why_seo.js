@@ -1,37 +1,33 @@
-import React from 'react'
+import React from "react";
 
 function Why_seo() {
   return (
-    <div>
-        <div className='row'>
-
-            <div className="bg-gradient-to-r from-violet-500 to-fuchsia-500">
-            <h1 className='text-[40px] flex flex-col justify-center items-center ' > Why SEO ?</h1>
-            <div className='row flex-1 justify-center items-center'>
-                <div className='col-7'>
-                  <p className='shadow-blue-500/50'>LEADING YOUR BUSINESS IN THE RIGHT DIRECTION</p><br/>
-                  <p>Generate qualified sales leads</p><br/>
-                  <p>Increase e-commerce traffic and sales</p><br/>
-                </div>
-                <div className='col-5'>
-                  <img src='assets/instaquirkbg/36.jpg'/>
-                </div>
-            </div>
-            <div className='row'>
-            <div className='col-5'>
-            <img src='assets/instaquirkbg/37.jpg'/>
-            </div>
-              <div className='col-7'>
-                  <p>businesses fail due to bad marketing.</p><br/>
-                  <p>Increase in organic new users with a strategic SEO campaign. </p><br/>
-                  <p>Demand More From Your Website </p><br/>
-              </div>
-              
-            </div>
-            </div>
+    <>
+      <div className="pt-100 web-dev">
+        <div className="parent">
+          <div className="web-development-details">
+            <h1>Why SEO ?</h1>
+            <p>
+              Need to make a lasting impression? The right combination of
+              colors, shapes and words will define your brand. Get the perfect
+              logo and ensure your branding hits the spot with these services.
+              <br />
+              Whether it is a company or oneself to establish unique identity
+              visuals matters. Our team across the world uses the power of
+              creativity to transform businesses for the better .
+            </p>
+          </div>
+          <div className="web-development text-center mb-100 graphics_design">
+            <img
+              src="/assets/img/graphics.jpg"
+              alt="vector"
+              className="w-full h-auto"
+            />
+          </div>
         </div>
-    </div>
-  )
+      </div>
+    </>
+  );
 }
 
-export default Why_seo
+export default Why_seo;

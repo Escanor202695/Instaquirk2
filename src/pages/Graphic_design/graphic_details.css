@@ -18,11 +18,14 @@
     justify-content: space-between;
     align-items: center;
 } */
-/* .work_segment>h1{
-    display: block;
-    text-align: center;
-    margin-top: 20px;
-} */
+.work_segment{
+   
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+}
+
 /* .service>div>p{
     font-size: 30px;
     padding-top: 20px;
