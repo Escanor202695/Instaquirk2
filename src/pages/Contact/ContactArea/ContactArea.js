@@ -1,6 +1,8 @@
 import React from 'react';
 import emailjs from '@emailjs/browser';
+const cors = require('cors')
 import { useRef } from 'react';
+
 const ContactArea = () => {
    const form = useRef();
 

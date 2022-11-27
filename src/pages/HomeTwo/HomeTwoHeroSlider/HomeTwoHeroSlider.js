@@ -26,8 +26,7 @@ const HomeTwoHeroSlider = () => {
             attr_1={<span className="Instaquirk">Welcome To Instaquirk.</span>}
             attr_2={
               <h1>
-                Start your dream today.
-                <br /> Conquer the world.
+              As the digital era grows,<br/> word of mouth is no longer enough
               </h1>
             }
             btn_text="Enroll Now"
@@ -44,7 +43,7 @@ const HomeTwoHeroSlider = () => {
                 that will take you towards your goal
               </h1>
             }
-            attr_3="Our course will cover everything you need to become a professional web developer or UI/UX designer and Full Stack Digital Marketing from scratch, without any prior experience."
+            attr_3="We merge imagination and technology to help brands grow in an age of digital transformation."
             btn_text="Enroll Now"
           />
         </Slider>

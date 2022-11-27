@@ -6,8 +6,7 @@ const HomeTwoSingleSlide = ({
   content_class,
   attr_1,
   attr_2,
-  attr_3 = `Our course will cover everything you need to become a professional web developer or UI/UX 
-  designer and Full Stack Digital Marketing from scratch, without any prior experience.`,
+  attr_3 = `We merge imagination and technology to help brands grow in an age of digital transformation.`,
   btn_text,
 }) => {
   return (
