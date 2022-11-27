@@ -6,9 +6,13 @@ const HomeTwoSingleSlide = ({
   content_class,
   attr_1,
   attr_2,
+<<<<<<< HEAD
+  attr_3 = `We merge imagination and technology to help brands grow in an age of digital transformation.`,
+=======
   attr_3 = `Our agency will cover everything you need to become a professional business in Web developer or Graphics design or
    Full Stack Seo and Full Stack 
   Social Media Management & Marketing from scratch`,
+>>>>>>> 81edcad407292a8fe1258754347ec2d5e2b1c707
   btn_text,
 }) => {
   return (
