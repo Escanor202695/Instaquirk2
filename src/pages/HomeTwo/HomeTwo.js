@@ -2,13 +2,12 @@ import React from "react";
 import CommonCtaArea from "../../components/CommonCtaArea/CommonCtaArea";
 import PageHelmet from "../../components/shared/PageHelmet";
 import HomeTwoAchievement from "./HomeTwoAchievement/HomeTwoAchievement";
-import HomeTwoCaseArea from "./HomeTwoCaseArea/HomeTwoCaseArea";
 import HomeTwoExpertArea from "./HomeTwoExpertArea/HomeTwoExpertArea";
 import HomeTwoFaq from "./HomeTwoFaq/HomeTwoFaq";
 import HomeTwoFeatures from "./HomeTwoFeatures/HomeTwoFeatures";
 import HomeTwoFooter from "./HomeTwoFooter/HomeTwoFooter";
 import HomeTwoHeader from "./HomeTwoHeader/HomeTwoHeader";
-import HomeTwoHeroSlider from "./HomeTwoHeroSlider/HomeTwoHeroSlider";
+// import HomeTwoHeroSlider from "./HomeTwoHeroSlider/HomeTwoHeroSlider";
 
 const HomeTwo = () => {
   const Faq = [
@@ -33,7 +32,7 @@ const HomeTwo = () => {
     <>
       <PageHelmet pageTitle="Instaquirk" />
       <HomeTwoHeader />
-      <HomeTwoHeroSlider />
+      {/* <HomeTwoHeroSlider /> */}
       <HomeTwoFeatures />
       <HomeTwoFaq arrayFaq={Faq} />
       <HomeTwoAchievement opacity={opacity} />
