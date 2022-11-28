@@ -7,7 +7,7 @@ import HomeTwoFaq from "./HomeTwoFaq/HomeTwoFaq";
 import HomeTwoFeatures from "./HomeTwoFeatures/HomeTwoFeatures";
 import HomeTwoFooter from "./HomeTwoFooter/HomeTwoFooter";
 import HomeTwoHeader from "./HomeTwoHeader/HomeTwoHeader";
-// import HomeTwoHeroSlider from "./HomeTwoHeroSlider/HomeTwoHeroSlider";
+import HomeTwoHeroSlider from "./HomeTwoHeroSlider/HomeTwoHeroSlider";
 
 const HomeTwo = () => {
   const Faq = [
@@ -32,7 +32,7 @@ const HomeTwo = () => {
     <>
       <PageHelmet pageTitle="Instaquirk" />
       <HomeTwoHeader />
-      {/* <HomeTwoHeroSlider /> */}
+       <HomeTwoHeroSlider /> 
       <HomeTwoFeatures />
       <HomeTwoFaq arrayFaq={Faq} />
       <HomeTwoAchievement opacity={opacity} />
