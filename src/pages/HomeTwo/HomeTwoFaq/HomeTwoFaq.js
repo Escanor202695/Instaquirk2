@@ -17,7 +17,7 @@ const HomeTwoFaq = ({ arrayFaq }) => {
             <div className="col-xl-5 offset-xl-7 col-lg-6 offset-lg-6 col-md-7 offset-md-5">
               <div className="faq__wrapper">
                 <div
-                  className="section__title section__title-3 mb-25 wow fadeInUp"
+                  className="section__title section__title-3 mb-20 wow fadeInUp"
                   data-wow-delay=".2s"
                 >
                   <span>Thinking</span>

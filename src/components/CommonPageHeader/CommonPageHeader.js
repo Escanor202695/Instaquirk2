@@ -41,9 +41,9 @@ const CommonPageHeader = ({ title, subtitle }) => {
                 <div className="page__title-content mt-100 about-us">
                   <h2 className="font-bold">{title}</h2>
 
-                  <li className="breadcrumb-item">
+                 {/*} <li className="breadcrumb-item">
                     <Link to="/">Home</Link> | <span>{title}</span>
-                  </li>
+      </li>*/}
                   <p style={{ color: "white", fontSize: "20px" }}>
                     <big></big>
                     {subtitle}
