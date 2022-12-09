@@ -9,19 +9,23 @@ import Faq from "../HomeTwo/HomeTwoFaq/HomeTwoFaq";
 function webDevelopment(props) {
   const arrayFaq = [
     {
-      question: "Why should i choose your agency?",
+      question: "Don't have hosting right now. Can we start?",
       solution:
-        "There is no work that we neglect at our company.The only thing we can do to help others is to provide them with services whenever possible.",
+        "Absolutely! We would start the development on our development server. Once the website build is complete, we will transfer to your hosting. You can also have us host your website for a minimal monthly fee.",
     },
     {
-      question: "Can you help my business grow?",
-      solution: "Our team always ready to help your business.",
+      question: "What do you need to get started?",
+      solution: "You will have to provide us with : Project brief which describes the Main Idea and specific details, pictures,logo, content, WordPress login details. If you missing some of the requirements just contact us and we will help you with everything. If you need help in any of them, Contact us."
     },
     {
       question:
-        "I need a complete some talent team for my business. Who will I be working with?",
+        "Will you maintain my site for me?",
       solution:
-        "Our agency team always ready to help  your business and also fixing the problem. You can get our service easily when you have to need.",
+        "Of course, we can help you out with proper and professional website maintenance in addition to development as it supports in achieving stabilized growth, keeping your business inclined.",
+    },
+    {
+      question: "Will my website be mobile-friendly?",
+      solution: "It also increases the number of visitors, rankings in search engines.Yes, we ensure to develop a responsive website that would make your visitors appealing and deliver an optimized browsing experience."
     },
   ];
   const tech = [
