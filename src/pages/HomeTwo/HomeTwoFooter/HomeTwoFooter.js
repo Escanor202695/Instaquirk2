@@ -1,14 +1,14 @@
 import React from "react";
 import {
-  FaFacebookF,
+  FaInstagram,
+  FaLinkedinIn,
   FaTwitter,
-  FaVimeoV,
   FaEnvelope,
   FaPhoneAlt,
 } from "react-icons/fa";
-import { BiMap } from 'react-icons/bi';
+import { BiMap } from "react-icons/bi";
 import {} from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const HomeTwoFooter = () => {
   return (
@@ -17,7 +17,10 @@ const HomeTwoFooter = () => {
         <div className="footer__area grey-bg pt-100">
           <div className="footer__top pb-45">
             <div className="container">
-              <div className="row" style={{display:'flex',justifyContent:"space-between"}}>
+              <div
+                className="row"
+                style={{ display: "flex", justifyContent: "space-between" }}
+              >
                 <div className="col-xl-3 col-lg-3 col-md-4 col-sm-6">
                   <div className="footer__widget mb-45">
                     <div className="footer__widget-title mb-30">
@@ -33,18 +36,17 @@ const HomeTwoFooter = () => {
                     </div>
                     <div className="footer__widget-content">
                       <p className="mb-30">
-                        Copyright © 2022 All Rights Reserved passion by
-                        Theme_Pure
+                        Copyright © 2022 All Rights Reserved by Instaquirk
                       </p>
                       <div className="footer__social theme-social mb-30">
                         <ul>
                           <li>
                             <a href="#">
                               <i>
-                                <FaFacebookF />
+                                <FaLinkedinIn />
                               </i>
                               <i>
-                                <FaFacebookF />
+                                <FaLinkedinIn />
                               </i>
                             </a>
                           </li>
@@ -61,10 +63,10 @@ const HomeTwoFooter = () => {
                           <li>
                             <a href="#">
                               <i>
-                                <FaVimeoV />{" "}
+                                <FaInstagram />{" "}
                               </i>
                               <i>
-                                <FaVimeoV />{" "}
+                                <FaInstagram />{" "}
                               </i>
                             </a>
                           </li>
@@ -82,7 +84,7 @@ const HomeTwoFooter = () => {
                       <div className="footer__links">
                         <ul>
                           <li>
-                            <a href="#">About Us</a>
+                            <NavLink to="/about">About</NavLink>
                           </li>
                           <li>
                             <a href="#">Testimonials</a>
@@ -104,28 +106,22 @@ const HomeTwoFooter = () => {
                 <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6">
                   <div className="footer__widget mb-45">
                     <div className="footer__widget-title">
-                      <h4>Resources</h4>
+                      <h4>Services</h4>
                     </div>
                     <div className="footer__widget-content">
                       <div className="footer__links">
-                        <ul>
+                        <ul>       
                           <li>
-                            <a href="#">Customers</a>
+                          <NavLink to="/seo">SEO</NavLink>
                           </li>
                           <li>
-                            <a href="#">Pricing</a>
+                          <NavLink to="/web_development">Web Development</NavLink>
                           </li>
                           <li>
-                            <a href="#">News</a>
+                          <NavLink to="/graphic_details">Graphics Design</NavLink>
                           </li>
                           <li>
-                            <a href="#">Learning Center</a>
-                          </li>
-                          <li>
-                            <a href="#">Help desk</a>
-                          </li>
-                          <li>
-                            <a href="#">Support</a>
+                          <NavLink to="/social_media_management">Social Media Management</NavLink>
                           </li>
                         </ul>
                       </div>

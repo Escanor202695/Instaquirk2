@@ -10,10 +10,10 @@ const ContactArea = () => {
 
     emailjs
       .sendForm(
-        "service_in1cinu",
-        "template_beh3o3b",
-        e.target,
-        "user_GFZkak7lkFm9Ad6G3J8K1"
+        "service_c12ofag",
+        "template_issq6yr",
+        form.current,
+        "ujqGp-gYbQpWbuRmI"
       )
       .then(
         (result) => {
