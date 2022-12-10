@@ -34,21 +34,20 @@ const CommonPageHeader = ({ title, subtitle }) => {
             alt="circle"
           />
         </div>
-        <div className="p-relative px-1rem md:px-4vw">
-          <div className="container">
-            <div className="row">
-              <div className="col-xl-12">
-                <div className="page__title-content mt-100 about-us">
-                  <h2 className="font-bold">{title}</h2>
 
-                 {/*} <li className="breadcrumb-item">
-                    <Link to="/">Home</Link> | <span>{title}</span>
-      </li>*/}
-                  <p style={{ color: "white", fontSize: "20px" }}>
-                    <big></big>
-                    {subtitle}
-                  </p>
-                </div>
+        <div className="container">
+          <div className="row">
+            <div className="col-xl-12">
+              <div className="page__title-content mt-100 about-us">
+                <h2 className="font-bold">{title}</h2>
+
+                <li className="breadcrumb-item">
+                  <Link to="/">Home</Link> | <span>{title}</span>
+                </li>
+                <p style={{ color: "white", fontSize: "20px" }}>
+                  <big></big>
+                  {subtitle}
+                </p>
               </div>
             </div>
           </div>
