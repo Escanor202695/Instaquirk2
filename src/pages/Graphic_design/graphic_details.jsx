@@ -6,6 +6,7 @@ import CommonPageHeader from "../../components/CommonPageHeader/CommonPageHeader
 import Service from "./gservices/service";
 import GalleryImage from "./GalleryImage";
 import CommonCtaArea from "../../components/CommonCtaArea/CommonCtaArea";
+import Carousel from "react-material-ui-carousel";
 
 function graphic_details() {
   const images = [
@@ -97,51 +98,71 @@ function graphic_details() {
           </p>   
         </div> */}
 
-        <div className="pt-100 web-dev">
-          <div className="parent">
-            <div className="web-development-details">
-              <h1>
-                Our Graphics
-                <br /> Solution
-              </h1>
-              <p>
-                Need to make a lasting impression? The right combination of
-                colors, shapes and words will define your brand. Get the perfect
-                logo and ensure your branding hits the spot with these services.
-                <br />
-                Whether it is a company or oneself to establish unique identity
-                visuals matters. Our team across the world uses the power of
-                creativity to transform businesses for the better .
-              </p>
-            </div>
-            <div className="web-development text-center mb-100 graphics_design">
-              <img
-                src="/assets/img/graphics.jpg"
-                alt="vector"
-                className="w-full h-auto"
-              />
-            </div>
-          </div>
-        </div>
-        <div className="technologies pb-100">
-          <h1>Technologies we work with</h1>
-          <div className="tech_items">
-            {services.map((techItem) => {
-              const { src, title } = techItem;
-              return (
-                <div className="tech_item">
-                  <img src={src} alt="" />
-                  <h4>{title}</h4>
+        <div className="customize">
+          <div className="pt-100 web-dev">
+            <div className="parent">
+              <div className="graphics-management">
+                <div className="web-development-details">
+                  <h1>
+                    Our Graphics
+                    <br /> Solution
+                  </h1>
+                  <p>
+                    Need to make a lasting impression? The right combination of
+                    colors, shapes and words will define your brand. Get the
+                    perfect logo and ensure your branding hits the spot with
+                    these services.
+                    <br />
+                    Whether it is a company or oneself to establish unique
+                    identity visuals matters. Our team across the world uses the
+                    power of creativity to transform businesses for the better .
+                  </p>
                 </div>
-              );
-            })}
+              </div>
+              <div className="web-development text-center mb-100 graphics_design">
+                <img
+                  src="/assets/img/graphics.jpg"
+                  alt="vector"
+                  className="w-full h-auto"
+                />
+              </div>
+            </div>
           </div>
-        </div>
-        {/* <div className="flex align-center justify-center ">
+          <div className="technologies pb-100">
+            <h1>Technologies we work with</h1>
+            <div className="visible-item">
+              <div className="tech_items">
+                {services.map((techItem) => {
+                  const { src, title } = techItem;
+                  return (
+                    <div className="tech_item">
+                      <img src={src} alt="" />
+                      <h4>{title}</h4>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+            <div className="tech_items invisible-item">
+              <Carousel>
+                {services.map((techItem) => {
+                  const { src, title } = techItem;
+                  return (
+                    <div className="tech_item">
+                      <img src={src} alt="" />
+                      <h4>{title}</h4>
+                    </div>
+                  );
+                })}
+              </Carousel>
+            </div>
+          </div>
+
+          {/* <div className="flex align-center justify-center ">
           <h1>Our Top Services</h1>
         </div> */}
 
-        {/* <div className=" p-[50px] flex justify-start"> 
+          {/* <div className=" p-[50px] flex justify-start"> 
           {services.map((service) => {
             return (
               <Service
@@ -151,7 +172,7 @@ function graphic_details() {
             );
           })}
         </div> */}
-
+        </div>
         <div className="graphics__work pb-200 mb-40">
           <h1>Sample Works</h1>
           <div className="work_segment">

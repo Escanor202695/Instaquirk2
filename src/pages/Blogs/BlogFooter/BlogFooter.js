@@ -14,7 +14,7 @@ const BlogFooter = () => {
                            <div className="footer__widget mb-45 wow fadeInUp" data-wow-delay=".2s">
                               <div className="footer__widget-title mb-30">
                                  <div className="logo">
-                                    <Link to="/home">
+                                    <Link to="/">
                                        <img src="assets/img/logo/logo.png" alt=""/>
                                     </Link>
                                  </div>

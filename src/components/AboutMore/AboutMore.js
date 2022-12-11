@@ -33,25 +33,27 @@ const AboutMore = () => {
         <div className="container">
           <div className="row">
             <div className="col-xl-6 ">
-              <div className="about__content">
-                <div className="section__title mb-25">
-                  <span>SOME REASONS TO WORK TOGETHER</span>
-                  <h2 className="about-heading">
-                    Our Goal Is Clients’ Success And Future Growth
-                  </h2>
-                  <div className="parent">
-                    {aboutMore.map((aboutItem) => {
-                      const { id, name, describe } = aboutItem;
-                      return (
-                        <div className="about___more">
-                          <h3>
-                            <span className="about_id">0{id}</span>
-                            {name}
-                          </h3>
-                          <p className="about__describe">{describe}</p>
-                        </div>
-                      );
-                    })}
+              <div className="common-section">
+                <div className="about__content">
+                  <div className="section__title mb-25">
+                    <span>SOME REASONS TO WORK TOGETHER</span>
+                    <h2 className="about-heading">
+                      Our Goal Is Clients’ Success And Future Growth
+                    </h2>
+                    <div className="parent">
+                      {aboutMore.map((aboutItem) => {
+                        const { id, name, describe } = aboutItem;
+                        return (
+                          <div className="about___more">
+                            <h3>
+                              <span className="about_id">0{id}</span>
+                              {name}
+                            </h3>
+                            <p className="about__describe">{describe}</p>
+                          </div>
+                        );
+                      })}
+                    </div>
                   </div>
                 </div>
               </div>

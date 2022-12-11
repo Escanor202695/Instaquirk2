@@ -81,7 +81,7 @@ const HomeTwoHeader = () => {
                                 </NavLink>
                               </li>{" "}
                               <li>
-                                <NavLink to="/" className="dropdown-item">
+                                <NavLink to="/seo" className="dropdown-item">
                                   SEO
                                 </NavLink>
                               </li>
