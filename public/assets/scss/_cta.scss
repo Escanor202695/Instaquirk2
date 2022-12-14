@@ -29,18 +29,23 @@
             margin-bottom: 10px;
         }
         & h1{
-            font-size: 70px;
-            color: $white;
+            font-size: 56px;
+            color: #ffffff;
             font-weight: 900;
             margin-bottom: 50px;
+            font-family: 'Montserrat';
+            line-height: 75px;
             @media #{$md}{
                 font-size: 55px;
+                line-height: 50px;
             }
             @media #{$sm}{
                 font-size: 40px;
+                line-height: 47px;
             }
             @media #{$xs}{
                 font-size: 30px;
+                line-height: 45px;
             }
         }
     }
