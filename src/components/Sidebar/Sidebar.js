@@ -145,7 +145,7 @@ const Sidebar = ({ show, handleClose }) => {
                         {/* </Collapsible> */}
 
                         <div className="about iconAdd">
-                          <NavLink to="/home">Home</NavLink>{" "}
+                          <NavLink to="/">Home</NavLink>{" "}
                         </div>
 
                         <div className="about iconAdd">

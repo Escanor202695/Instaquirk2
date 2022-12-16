@@ -17,59 +17,62 @@ const HomeAbout = ({ opacity }) => {
               </div>
             </div>
             <div className="col-xl-5 offset-xl-1 col-lg-5 offset-lg-1">
-              <div className="about__content">
-                <div className="section__title mb-25">
-                  <span>Who we are</span>
-                  <h2 className="about-heading">
-                    We Conceive And Translate Our Clients Dreams Into Reality
-                  </h2>
+              <div className="common-section">
+                <div className="about__content">
+                  <div className="section__title mb-25">
+                    <span>Who we are</span>
+                    <h2 className="about-heading">
+                      We Conceive And Translate Our Clients Dreams Into Reality
+                    </h2>
+                  </div>
+                  <p>
+                    We are committed to customers success from start to finish.
+                    Our input helps make their solutions stand out from the
+                    crowd.
+                  </p>
+                  <div className="about__list">
+                    <ul>
+                      <li>
+                        <span>
+                          <i>
+                            {" "}
+                            <FaCheck />{" "}
+                          </i>
+                          Creative ideas{" "}
+                        </span>
+                      </li>
+                      <li>
+                        <span>
+                          <i>
+                            {" "}
+                            <FaCheck />{" "}
+                          </i>
+                          Professional assistance
+                        </span>
+                      </li>
+                      <li>
+                        <span>
+                          <i>
+                            {" "}
+                            <FaCheck />{" "}
+                          </i>
+                          Assisting professionals{" "}
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                  <Link
+                    to="/services"
+                    className="z-btn"
+                    style={{ opacity: `${opacity}` }}
+                  >
+                    What we do
+                    <i>
+                      {" "}
+                      <CgArrowLongRight />{" "}
+                    </i>
+                  </Link>
                 </div>
-                <p>
-                  We are committed to customers success from start to finish.
-                  Our input helps make their solutions stand out from the crowd.
-                </p>
-                <div className="about__list">
-                  <ul>
-                    <li>
-                      <span>
-                        <i>
-                          {" "}
-                          <FaCheck />{" "}
-                        </i>
-                        Creative ideas{" "}
-                      </span>
-                    </li>
-                    <li>
-                      <span>
-                        <i>
-                          {" "}
-                          <FaCheck />{" "}
-                        </i>
-                        Professional assistance
-                      </span>
-                    </li>
-                    <li>
-                      <span>
-                        <i>
-                          {" "}
-                          <FaCheck />{" "}
-                        </i>
-                        Assisting professionals{" "}
-                      </span>
-                    </li>
-                  </ul>
-                </div>
-                <Link
-                  to="/services"
-                  className="z-btn"
-                  style={{ opacity: `${opacity}` }}
-                >
-                  What we do
-                  <i>
-                    {" "}
-                    <CgArrowLongRight />{" "}
-                  </i>
-                </Link>
               </div>
             </div>
           </div>

@@ -24,17 +24,38 @@ import WebDevelopment from "./pages/WebDevelopment/WebDevelopment";
 import Seo from "./pages/SEO/seo";
 import Team from "./pages/Team/Team";
 import TeamDetails from "./pages/TeamDetails/TeamDetails";
+import Loader from "./components/Loader/Loader";
+import { useEffect, useState } from "react";
+import { ClipLoader } from "react-spinners";
 
 function App() {
+  const [loading, setLoading] = useState(false);
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+  }, []);
   return (
     <>
       <BrowserRouter>
         <ScrollTop />
         <Routes>
-          <Route path="/" element={<HomeTwo />} />
+          <Route
+            path="/"
+            element={
+              loading ? (
+                <div className="loader">
+                  <ClipLoader color={"white"} loading={loading} size={150} />
+                  <h3>welcome to Instaquirk</h3>
+                </div>
+              ) : (
+                <HomeTwo />
+              )
+            }
+          />
           <Route path="/home" element={<Home />} />
           <Route path="/homeTwo" element={<HomeTwo />} />
-
           <Route path="/homeThree" element={<HomeThree />} />
           <Route path="/headerStyleFour" element={<HeaderStyleFour />} />
           <Route path="/headerStyleFive" element={<HeaderStyleFive />} />

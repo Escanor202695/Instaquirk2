@@ -32,7 +32,10 @@ function seo() {
         title="Outrank your competitors, Now!"
         subtitle="Make every click count"
       />
-      <Why_seo />
+      <div className="customize">
+        <Why_seo />
+      </div>
+
       <Cooperation />
       <Process />
       <Faq arrayFaq={arrayFaq} />
