@@ -22,7 +22,11 @@ const HomeTwoFaq = ({ arrayFaq }) => {
                 >
                   <span>Thinking</span>
                   <h2>
+<<<<<<< HEAD
                     Future is brighter when you're <br /> more prepared
+=======
+                    Knowledge is <br /> the best investment
+>>>>>>> a4c435fb785b8c080a6acb09be218c51e319f115
                   </h2>
                 </div>
 
@@ -32,6 +36,7 @@ const HomeTwoFaq = ({ arrayFaq }) => {
                 >
                   <div className="faq__accordion p-relative">
                     <div className="accordion" id="accordionExample">
+<<<<<<< HEAD
                       {arrayFaq.map((item, key) => {
                         return (
                           <div className="card">
@@ -60,6 +65,38 @@ const HomeTwoFaq = ({ arrayFaq }) => {
                               </div>
                             </div>
                           </div>
+=======
+                      {arrayFaq.map((item,key) => {
+                        return (
+                          <div className="card">
+                        <div className="card-header" id={`acc_${key+1}`}>
+                          <h5 className="mb-0">
+                            <button
+                              className="btn btn-link collapsed"
+                              data-bs-toggle="collapse"
+                              data-bs-target={`#collapse_${key+1}`}
+                              aria-expanded="true"
+                              aria-controls={`collapse_${key+1}`}
+                            >
+                              {item.question}
+                            </button>
+                          </h5>
+                        </div>
+
+                        <div
+                          id={`collapse_${key+1}`}
+                          className="collapse"
+                          aria-labelledby={`acc_${key+1}`}
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div className="card-body accordion-body">
+                            <p>
+                              {item.solution}
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+>>>>>>> a4c435fb785b8c080a6acb09be218c51e319f115
                         );
                       })}
                     </div>

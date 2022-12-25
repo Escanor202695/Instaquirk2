@@ -3,7 +3,11 @@
 /*----------------------------------------*/
 
 .achievement{
+<<<<<<< HEAD
    
+=======
+    &__area{}
+>>>>>>> a4c435fb785b8c080a6acb09be218c51e319f115
     &__content{
         & p{
             margin-bottom: 50px;
@@ -20,7 +24,11 @@
             margin-top: 50px;
         }
     }
+<<<<<<< HEAD
    
+=======
+    &__wrapper{}
+>>>>>>> a4c435fb785b8c080a6acb09be218c51e319f115
     &__item{
         padding-right: 45px;
         @media #{$md}{

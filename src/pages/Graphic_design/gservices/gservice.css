@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 /* .graphic_service{
+=======
+.graphic_service{
+>>>>>>> a4c435fb785b8c080a6acb09be218c51e319f115
     width: 18%;
     min-height: 100px;
     padding: 15px;
@@ -15,6 +19,7 @@
 .graphic_service>h3{
     margin-top: 10px;
     font-size: 20px;
+<<<<<<< HEAD
 } */
 
 /* .serviceList{
@@ -22,3 +27,12 @@
     display: flex;
     justify-content: flex-start;
 } */
+=======
+}
+
+.serviceList{
+    padding: 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+>>>>>>> a4c435fb785b8c080a6acb09be218c51e319f115

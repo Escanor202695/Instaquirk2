@@ -70,7 +70,11 @@ const BlogLeftSideBar = () => {
                                 <ul>
                                     <li><Link to="/blogDetails">Web Design (6)</Link></li>
                                     <li><Link to="/blogDetails"> Web Development (14)</Link></li>
+<<<<<<< HEAD
                                     <li><Link to="/blogDetails">Graphic (12)</Link></li>
+=======
+                                    <li><Link to="/blogDetails">Graphics (12)</Link></li>
+>>>>>>> a4c435fb785b8c080a6acb09be218c51e319f115
                                     <li><Link to="/blogDetails">IOS/Android Design (10)</Link></li>
                                     <li><Link to="/blogDetails">App & Saas (4)</Link></li>
                                     <li><Link to="/blogDetails">Fresh Products (9)</Link></li>

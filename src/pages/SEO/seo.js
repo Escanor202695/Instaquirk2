@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import HomeTwoHeader from "../HomeTwo/HomeTwoHeader/HomeTwoHeader";
 import CommonPageHeader from "../../components/CommonPageHeader/CommonPageHeader";
@@ -46,3 +47,16 @@ function seo() {
 }
 
 export default seo;
+=======
+import React from 'react';
+
+function seo(props) {
+    return (
+        <div>
+                SEO page
+        </div>
+    );
+}
+
+export default seo;
+>>>>>>> a4c435fb785b8c080a6acb09be218c51e319f115

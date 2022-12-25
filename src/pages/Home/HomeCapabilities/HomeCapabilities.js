@@ -3,8 +3,14 @@ import React from 'react';
 const HomeCapabilities = () => {
    return (
       <>
+<<<<<<< HEAD
        
          <section className="capabilities__area p-relative black-bg-2 pt-180 pb-155 fix w-[50%] ">
+=======
+         <section className="capabilities__area p-relative black-bg-2 pt-180 pb-155 fix">
+            <div className="capabilities__thumb p-absolute" style={{ background:`url(assets/img/capabilities/capabilities-img.jpg)`
+               , backgroundPosition: 'center', backgroundSize:'cover'}}></div>
+>>>>>>> a4c435fb785b8c080a6acb09be218c51e319f115
             <div className="capabilities__shape p-absolute wow fadeInLeft" >
                <img src="assets/img/capabilities/capabilities-shape.png" alt="shape"/>
             </div>
@@ -28,7 +34,10 @@ const HomeCapabilities = () => {
                </div>
             </div>
          </section>
+<<<<<<< HEAD
 
+=======
+>>>>>>> a4c435fb785b8c080a6acb09be218c51e319f115
       </>
    );
 };

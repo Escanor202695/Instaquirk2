@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 /* eslint-disable jsx-a11y/anchor-is-valid */
+=======
+>>>>>>> a4c435fb785b8c080a6acb09be218c51e319f115
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import Sidebar from "../../../components/Sidebar/Sidebar";
@@ -46,7 +49,11 @@ const HomeTwoHeader = () => {
                   <div className="header__bottom-right d-flex justify-content-end align-items-center">
                     <div className="main-menu menu_wrapper_one">
                       <nav id="mobile-menu">
+<<<<<<< HEAD
                         <ul className="drop-down-menu">
+=======
+                        <ul>
+>>>>>>> a4c435fb785b8c080a6acb09be218c51e319f115
                           <li>
                             <NavLink to="/">Home</NavLink>
                           </li>
@@ -54,6 +61,7 @@ const HomeTwoHeader = () => {
                             <NavLink to="/about">About Us </NavLink>
                           </li>
                           <li>
+<<<<<<< HEAD
                             <a className="services-item">Services</a>
                             <ul>
                               <li>
@@ -86,6 +94,9 @@ const HomeTwoHeader = () => {
                                 </NavLink>
                               </li>
                             </ul>
+=======
+                            <NavLink to="/services">Services</NavLink>
+>>>>>>> a4c435fb785b8c080a6acb09be218c51e319f115
                           </li>
                           {/*<li>
                             <NavLink to="/portfolio">Insights</NavLink>

@@ -1,22 +1,39 @@
+<<<<<<< HEAD
 /* .service{
    
     background-color: #f0f2f5;
     width: 100% !important;
 } */
 /* .header{
+=======
+.service{
+   
+    background-color: #f0f2f5;
+    width: 100% !important;
+}
+.header{
+>>>>>>> a4c435fb785b8c080a6acb09be218c51e319f115
     display: flex;
     align-items: center;
     justify-content: center;
    
+<<<<<<< HEAD
 } */
 
 
 /* .serviceList{
+=======
+}
+
+
+.serviceList{
+>>>>>>> a4c435fb785b8c080a6acb09be218c51e319f115
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+<<<<<<< HEAD
 } */
 .work_segment{
    
@@ -27,26 +44,51 @@
 }
 
 /* .service>div>p{
+=======
+
+}
+.work_segment>h1{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+.service>div>p{
+>>>>>>> a4c435fb785b8c080a6acb09be218c51e319f115
     font-size: 30px;
     padding-top: 20px;
     word-spacing: 2px;
     line-height: 1.2;
     color: black;
+<<<<<<< HEAD
 } */
 /* .gallery{
+=======
+}
+.gallery{
+>>>>>>> a4c435fb785b8c080a6acb09be218c51e319f115
  display: flex;
  flex-direction: column;
  flex-wrap: wrap;
  height: 2600px;
  padding:0 20px;
+<<<<<<< HEAD
 } */
 
 /* .gallery_image{
+=======
+}
+
+.gallery_image{
+>>>>>>> a4c435fb785b8c080a6acb09be218c51e319f115
     padding:.75%;
     width: 25%;
     height: auto;
     overflow: hidden;
     box-shadow: 5px 5px 5px 5px solid black;
     cursor: pointer;
+<<<<<<< HEAD
 } */
+=======
+}
+>>>>>>> a4c435fb785b8c080a6acb09be218c51e319f115
 

@@ -2,7 +2,10 @@ import React from 'react';
 import SIngleContactInfo from '../../../components/SIngleContactInfo/SIngleContactInfo';
 
 const ContactInfoArea = () => {
+<<<<<<< HEAD
    
+=======
+>>>>>>> a4c435fb785b8c080a6acb09be218c51e319f115
    return (
       <>
          <section className="contact__help p-relative pt-115 pb-150">
@@ -19,7 +22,11 @@ const ContactInfoArea = () => {
                      </div>
                   </div>
                </div>
+<<<<<<< HEAD
                <div className="row p-relative" >
+=======
+               <div className="row p-relative">
+>>>>>>> a4c435fb785b8c080a6acb09be218c51e319f115
 
                   <SIngleContactInfo image="headset" title="Customer Support" btn_text="Visit Support Forum" />
                   <SIngleContactInfo image="msg" title="Any Questions" btn_text="Contact Support" />

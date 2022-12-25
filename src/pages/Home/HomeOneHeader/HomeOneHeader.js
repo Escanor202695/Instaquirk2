@@ -1,9 +1,17 @@
 import { useState } from "react";
 import {
+<<<<<<< HEAD
   FaPhoneAlt,
   FaEnvelope,
   FaLinkedinIn,
   FaInstagram,
+=======
+  FaFacebookF,
+  FaPhoneAlt,
+  FaEnvelope,
+  FaLinkedinIn,
+  FaInstagram
+>>>>>>> a4c435fb785b8c080a6acb09be218c51e319f115
 } from "react-icons/fa";
 import { Link, NavLink } from "react-router-dom";
 import Sidebar from "../../../components/Sidebar/Sidebar";
@@ -24,13 +32,21 @@ const HomeOneHeader = () => {
                 <div className="col-xl-6 col-lg-5 col-md-4">
                   <div className="header__social">
                     <ul>
+<<<<<<< HEAD
                       {/*<li>
+=======
+                      <li>
+>>>>>>> a4c435fb785b8c080a6acb09be218c51e319f115
                         <a href="#">
                           <i>
                             <FaFacebookF />
                           </i>{" "}
                         </a>
+<<<<<<< HEAD
   </li>*/}
+=======
+                      </li>
+>>>>>>> a4c435fb785b8c080a6acb09be218c51e319f115
                       <li>
                         <a href="#">
                           <i>
@@ -45,6 +61,10 @@ const HomeOneHeader = () => {
                           </i>
                         </a>
                       </li>
+<<<<<<< HEAD
+=======
+                     
+>>>>>>> a4c435fb785b8c080a6acb09be218c51e319f115
                     </ul>
                   </div>
                 </div>
@@ -61,12 +81,20 @@ const HomeOneHeader = () => {
                         </a>
                       </li>
                       <li>
+<<<<<<< HEAD
                         <a href="www.gmailƒ.com">
+=======
+                        <a href="mailto:info@consulting.com">
+>>>>>>> a4c435fb785b8c080a6acb09be218c51e319f115
                           <i>
                             {" "}
                             <FaEnvelope />{" "}
                           </i>
+<<<<<<< HEAD
                           support@instaquirk.agency
+=======
+                          contact@instaquirk.com
+>>>>>>> a4c435fb785b8c080a6acb09be218c51e319f115
                         </a>
                       </li>
                     </ul>
@@ -82,6 +110,7 @@ const HomeOneHeader = () => {
             <div className="container">
               <div className="row align-items-center">
                 <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
+<<<<<<< HEAD
                   <div
                     className="logo"
                     style={{ display: "flex", alignItems: "center" }}
@@ -98,6 +127,12 @@ const HomeOneHeader = () => {
                     >
                       Instaquirk
                     </div>
+=======
+                  <div className="logo">
+                    <NavLink to="/">
+                      <img src="assets/img/logo/logo-gradient.png" alt="logo" />
+                    </NavLink>
+>>>>>>> a4c435fb785b8c080a6acb09be218c51e319f115
                   </div>
                   <div className="logo-gradient">
                     <NavLink to="/">
@@ -109,7 +144,11 @@ const HomeOneHeader = () => {
                   <div className="header__bottom-right d-flex justify-content-end align-items-center">
                     <div className="main-menu menu_wrapper_one">
                       <nav id="mobile-menu">
+<<<<<<< HEAD
                         <ul className="drop-down-menu">
+=======
+                        <ul>
+>>>>>>> a4c435fb785b8c080a6acb09be218c51e319f115
                           <li>
                             <NavLink to="/">Home</NavLink>
                           </li>
@@ -117,6 +156,7 @@ const HomeOneHeader = () => {
                             <NavLink to="/about">About Us </NavLink>
                           </li>
                           <li>
+<<<<<<< HEAD
                             <a className="services-item">Services</a>
                             <ul>
                               <li>
@@ -151,17 +191,29 @@ const HomeOneHeader = () => {
                             </ul>
                           </li>
                  
+=======
+                            <NavLink to="/services">Services</NavLink>
+                          </li>
+                          <li>
+                            <NavLink to="/portfolio">Insights</NavLink>
+                          </li>
+>>>>>>> a4c435fb785b8c080a6acb09be218c51e319f115
                           <li>
                             <NavLink to="/contact">Contact Us</NavLink>
                           </li>
                         </ul>
                       </nav>
                     </div>
+<<<<<<< HEAD
                     <div className="header__btn d-none d-sm-block d-xl-block ml-50">
                       <Link
                         to="/contact"
                         className="z-btn z-btn-white z-btn-white-2"
                       >
+=======
+                    <div className="header__btn d-none d-sm-block d-lg-none d-xl-block ml-50">
+                      <Link to="/contact" className="z-btn z-btn-white">
+>>>>>>> a4c435fb785b8c080a6acb09be218c51e319f115
                         Get a Quote
                       </Link>
                     </div>

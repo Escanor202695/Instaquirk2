@@ -6,7 +6,10 @@ import CommonPageHeader from "../../components/CommonPageHeader/CommonPageHeader
 import Service from "./gservices/service";
 import GalleryImage from "./GalleryImage";
 import CommonCtaArea from "../../components/CommonCtaArea/CommonCtaArea";
+<<<<<<< HEAD
 import Carousel from "react-material-ui-carousel";
+=======
+>>>>>>> a4c435fb785b8c080a6acb09be218c51e319f115
 
 function graphic_details() {
   const images = [
@@ -34,11 +37,16 @@ function graphic_details() {
     "/assets/img/graphics/3.png",
     "/assets/img/graphics/39.png",
     "/assets/img/graphics/7.png",
+<<<<<<< HEAD
+=======
+    "/assets/img/graphics/9.png",
+>>>>>>> a4c435fb785b8c080a6acb09be218c51e319f115
   ];
 
   const services = [
     {
       title: "Business logo",
+<<<<<<< HEAD
       src: "assets/tech/business.png",
     },
     {
@@ -76,6 +84,45 @@ function graphic_details() {
     {
       title: "Poster",
       src: "assets/tech/poster1.png",
+=======
+      icon:  1,
+    },
+    {
+      title: "UX/UI Design",
+      icon: 1,
+    },
+    {
+      title: "Business Card",
+      icon: 1,
+    },
+    {
+      title: "Social Media Post",
+      icon: 1,
+    },
+    {
+      title: "Marketing Post",
+      icon: 1,
+    },
+    {
+      title: "Flyer(Portrait)",
+      icon: 1,
+    },
+    {
+      title: "Custom Print",
+      icon: 1,
+    },
+    {
+      title: "Social Media Cover Photo",
+      icon: 1,
+    },
+    {
+      title: "Portfolio",
+      icon: 1,
+    },
+    {
+      title: "Poster",
+      icon: 1,
+>>>>>>> a4c435fb785b8c080a6acb09be218c51e319f115
     },
   ];
   return (
@@ -85,9 +132,15 @@ function graphic_details() {
         title="Your brand. Your story."
         subtitle="Design anything and everything."
       />
+<<<<<<< HEAD
       <>
         {/* <div className="container">
           <p className="text-[20px] p-t-[20px] linear-[1.2] text-color bg-red-200">
+=======
+      <div className="service">
+        <div className="container">
+          <p>
+>>>>>>> a4c435fb785b8c080a6acb09be218c51e319f115
             Need to make a lasting impression? The right combination of colors,
             shapes and words will define your brand. Get the perfect logo and
             ensure your branding hits the spot with these services.
@@ -95,6 +148,7 @@ function graphic_details() {
             Whether it is a company or oneself to establish unique identity
             visuals matters. Our team across the world uses the power of
             creativity to transform businesses for the better .
+<<<<<<< HEAD
           </p>   
         </div> */}
 
@@ -160,6 +214,15 @@ function graphic_details() {
         </div> */}
 
           {/* <div className=" p-[50px] flex justify-start"> 
+=======
+          </p>
+        </div>
+        <div className="header">
+          <h1>Our Top Services</h1>
+        </div>
+
+        <div className="serviceList">
+>>>>>>> a4c435fb785b8c080a6acb09be218c51e319f115
           {services.map((service) => {
             return (
               <Service
@@ -168,17 +231,29 @@ function graphic_details() {
               />
             );
           })}
+<<<<<<< HEAD
         </div> */}
         </div>
         <div className="graphics__work pb-200 mb-40">
           <h1>Sample Works</h1>
           <div className="work_segment">
+=======
+        </div>
+
+        <div className="work_segment">
+          <h1>Sample Works</h1>
+          <div className="gallery">
+>>>>>>> a4c435fb785b8c080a6acb09be218c51e319f115
             {images.map((image, key) => {
               return <GalleryImage index={key} images={images} image={image} />;
             })}
           </div>
         </div>
+<<<<<<< HEAD
       </>
+=======
+      </div>
+>>>>>>> a4c435fb785b8c080a6acb09be218c51e319f115
       <CommonCtaArea />
       <HomeTwoFooter />
     </>
