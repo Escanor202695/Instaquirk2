@@ -6,14 +6,14 @@ function Why_seo() {
     <>
       <div className="pt-100 web-dev">
         <div className="parent">
-          <div className="web-development text-center mb-100 Seo">
+          <div className="web-development text-center mb-100 Seo visible-item">
             <img
               src="/assets/instaquirkbg/36.jpg"
               alt="vector"
               className="w-full h-auto"
             />
           </div>
-          <div className="web-development-details">
+          <div className="web-development-details why___seo">
             <h1>Why SEO ?</h1>
             <p>
               In short, SEO is crucial because it makes your website more
@@ -22,12 +22,18 @@ function Why_seo() {
               use for optimal ranking.
             </p>
           </div>
+          <div className="web-development text-center mb-100 Seo invisible-item">
+            <img
+              src="/assets/instaquirkbg/36.jpg"
+              alt="vector"
+              className="w-full h-auto"
+            />
+          </div>
           <div className="web-seo">
             <h3>
               What is the significance <br /> of SEO?
             </h3>
-            <br />
-            <br />
+
             <div className="about__list">
               <ul>
                 <li>

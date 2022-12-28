@@ -88,7 +88,7 @@ const Cooperation = () => {
       describe:
         "With a long tail SEO, we’re specialized in, your website will start to be visited by more decisive and accurate users.",
       color: "#FFF",
-      background: "linear-gradient(210deg, #6c0b9f, #a91ac375)",
+      background: "#3820AF",
     },
     {
       id: 4,

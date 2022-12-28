@@ -35,12 +35,19 @@ const About = () => {
       <HomeTwoHeader />
       <CommonPageHeader title="About Us" subtitle="" />
       <div className="pt-60">
-        <HomeAbout opacity={opacity} />
+        <div className="customize">
+          <HomeAbout opacity={opacity} />
+        </div>
       </div>
-      <AboutMore />
+      <div className="customize">
+        <AboutMore />
+      </div>
       <HomeTwoFaq arrayFaq={Faq} />
-      <div className="pt-130 pb-150">
-        <HomeTwoAchievement opacity={opacity} />
+
+      <div className="customize">
+        <div className="pt-130 pb-150 home-two-achievement">
+          <HomeTwoAchievement opacity={opacity} />
+        </div>
       </div>
       {/* <HomeBrands /> */}
       <CommonCtaArea />
